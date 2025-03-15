@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+.playwrite-cu {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;}
+.playwrite-is {
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;}
+.shojumaru-regular {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-style: normal;}  
+.chicle-regular {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;}
+.group{
+    font-family:'Shojmaru';
+    font-weight:bolder;}
+.playpen-sans-uniuqe {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;}
+.agbalumo-regular {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;}
+.im-fell-dw-pica-sc-regular {
+    font-family: "IM Fell DW Pica SC", system-ui;
+    font-weight: 400;
+    font-style: normal;}
+.how{
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-weight: 100;}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;}
+input[type="number"] {-moz-appearance: textfield;}
+.cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;}
+.girassol-regular {
+        font-family: "Girassol", serif;
+        font-weight: 400;
+        font-style: normal;}
+.montserrat-font {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Replace with the desired weight */
+font-style: normal;}
+.lobster-two-bold-italic {
+    font-family: "Lobster Two", serif;
+    font-weight: 700;
+    font-style: italic;}
+ 
