@@ -13,12 +13,14 @@ function Test() {
 
   const videoRef = useRef(null);
   const audioRef = useRef(null);
+  const backendURL = import.meta.env.VITE_BACKEND_URL; // Load from .env
 
+  
   // Fetch questions from backend
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch('http://localhost:3000/fetch');
+        const response = await fetch(`${backendURL}/fetch`);
         const data = await response.json();
         setN(data.totalQuestions);
         setQuestions(data.questions || []);

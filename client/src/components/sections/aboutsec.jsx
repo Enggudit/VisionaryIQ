@@ -12,6 +12,8 @@ function AboutSec({ setCanAccessTest }) {
   const [showPreloader, setShowPreloader] = useState(false);
   const navigate = useNavigate();
 
+  const backendURL = import.meta.env.VITE_BACKEND_URL; // Load from .env
+
   useEffect(() => {
     document.addEventListener("contextmenu", (e) => e.preventDefault());
     return () => document.removeEventListener("contextmenu", (e) => e.preventDefault());
@@ -64,17 +66,18 @@ function AboutSec({ setCanAccessTest }) {
     };
 
     try {
-      await fetch("http://localhost:3000/fetch", {
+      const response = await fetch(`${backendURL}/fetch`, { // Use backendURL
         method: "POST",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" },
       });
 
-      // Show Preloader before navigation
-      setShowPreloader(true);
+      if (!response.ok) throw new Error("Failed to start the test");
 
+      setShowPreloader(true);
     } catch (error) {
       console.error("Error starting test:", error);
+      setLoading(false);
     }
   };
 

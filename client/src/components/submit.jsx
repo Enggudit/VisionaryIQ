@@ -8,10 +8,12 @@ function Submit() {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
   const loaderRef = useRef(null);
+  const backendURL = import.meta.env.VITE_BACKEND_URL;
+
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/submit", {
+      const response = await fetch(`${backendURL}/submit`, {
         method: "GET",
       });
       if (!response.ok) {
