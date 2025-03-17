@@ -109,6 +109,10 @@ server.get('/submit', (req, res) => {
   res.json(submissionCache)
 })
 
+server.get('/', (req, res) => {
+    res.send("Hey Buddy! your backend run greatfullly");
+})
+
 // Start the server
 const PORT = process.env.PORT || 4000
 server.listen(PORT, () => {
