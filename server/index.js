@@ -21,7 +21,6 @@ const connectToDatabase = async () => {
     process.exit(1) // Exit if connection fails
   }
 }
-submitresult = false
 connectToDatabase().catch(error => {
   console.error('Error during initial connection:', error)
 })
