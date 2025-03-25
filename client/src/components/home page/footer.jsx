@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import anime from "animejs";
 import * as THREE from "three";
 import "remixicon/fonts/remixicon.css";
 
@@ -102,11 +101,6 @@ function Footer() {
                     </a>
                 ))}
             </div>
-            <style jsx>{`
-                .hover\:glow:hover {
-                    text-shadow: 0 0 10px currentColor;
-                }
-            `}</style>
         </motion.div>
             </div>
             
