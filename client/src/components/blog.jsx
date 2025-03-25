@@ -1,6 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { motion } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
 
 function App() {
 
@@ -8,7 +10,8 @@ function App() {
   const cofounder=useRef(null);
   const technology = useRef(null);
   const line= useRef(null);
-  
+  const [trail, setTrail] = useState([]);
+
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -66,6 +69,18 @@ function App() {
 
   return (
     <div className=" h-full w-screen">
+      {trail.map((dot, index) => (
+        <div
+          key={dot.id}
+          className="absolute w-4 h-4 rounded-full opacity-80"
+          style={{
+            background: `hsl(${index * 36}, 100%, 50%)`,
+            left: dot.x - 8,
+            top: dot.y - 8,
+            position: 'fixed',
+          }}
+        ></div>
+      ))}
       <div className="h-full w-screen flex flex-wrap">
         <div className=" w-1/3 flex -z-50">
         
@@ -82,14 +97,18 @@ function App() {
           <div className="h-[12%] w-[20%] absolute top-[122%] rounded-2xl border-white border-[2px] left-[10%] pl-5 pt-3">
             <h1 className='text-[225%] font-mono font-extrabold text-white'>Technology</h1>
           </div>
-          
           <div className="h-52 w-full bg-[#181a2f] fixed"></div>
           <div className="h-52 w-full bg-[#181a2f] bottom-0 fixed"></div>
           <div className="h-screen w-[3.5%] absolute bg-[#181a2f]"></div>
           <div className="h-screen w-[25%] absolute bg-[#181a2f] right-0"></div>
         </div>
         <div className="right-box h-screen w-2/3 flex justify-center items-center">
-          <div className=" h-3/4 w-[50%] rounded-2xl border-[2px] border-white fixed">
+        <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} glareEnable={true} glareMaxOpacity={0.3} className='w-[50%] fixed overflow-auto rounded-2xl border-[2px] border-white'>
+          <motion.div className=" h-3/4 w-full  text-white" 
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          >
           <h1 ref={aboutus} className=' text-white p-4 text-xl absolute opacity-1'>
             <p>Welcome to our revolutionary learning platform, designed to make exam preparation smarter, faster, and more efficient. Our mission is to empower students and learners by providing a comprehensive system to test and strengthen their knowledge, one topic at a time.</p>
             <br />
@@ -117,7 +136,8 @@ function App() {
             <img className='w-[20%] rounded-2xl object-contain' src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="" />
             <img className='w-[20%] object-contain' src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo-thumbnail.png" alt="" />
           </h1>
-          </div>
+          </motion.div>
+          </Tilt>
         </div>
       </div>
     </div>

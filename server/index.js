@@ -6,16 +6,39 @@ require('dotenv').config()
 
 // Initialize the Express app
 const server = express()
+const helmet = require('helmet');
+server.use(helmet());
 
 // Middleware setup
 server.use(bodyParser.json())
-server.use(cors())
+const allowedOrigins = [
+  'http://localhost:5173', // Local frontend
+  'https://visionaryiq.in' // Production frontend
+];
+
+server.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true); // Allow the request
+    } else {
+      callback(new Error('Not allowed by CORS')); // Block the request
+    }
+  },
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type']
+}));
+
 
 // Connect to MongoDB with enhanced error handling
 const connectToDatabase = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI)
     console.log('Connected to MongoDB')
+    mongoose.connection.on('disconnected', () => {
+      console.error('MongoDB disconnected! Retrying...');
+      connectToDatabase();
+    });
+    
   } catch (error) {
     console.error('MongoDB connection error:', error)
     process.exit(1) // Exit if connection fails
