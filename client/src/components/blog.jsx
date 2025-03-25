@@ -69,18 +69,6 @@ function App() {
 
   return (
     <div className=" h-full w-screen">
-      {trail.map((dot, index) => (
-        <div
-          key={dot.id}
-          className="absolute w-4 h-4 rounded-full opacity-80"
-          style={{
-            background: `hsl(${index * 36}, 100%, 50%)`,
-            left: dot.x - 8,
-            top: dot.y - 8,
-            position: 'fixed',
-          }}
-        ></div>
-      ))}
       <div className="h-full w-screen flex flex-wrap">
         <div className=" w-1/3 flex -z-50">
         
