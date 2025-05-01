@@ -13,7 +13,6 @@ function AboutSec({ setCanAccessTest }) {
   const navigate = useNavigate();
 
   const backendURL = import.meta.env.VITE_BACKEND_URL; // Load from .env
-
   useEffect(() => {
     document.addEventListener("contextmenu", (e) => e.preventDefault());
     return () => document.removeEventListener("contextmenu", (e) => e.preventDefault());

@@ -10,7 +10,6 @@ function Submit() {
   const loaderRef = useRef(null);
   const backendURL = import.meta.env.VITE_BACKEND_URL;
 
-
   const fetchData = async () => {
     try {
       const response = await fetch(`${backendURL}/submit`, {
@@ -20,6 +19,7 @@ function Submit() {
         throw new Error("Failed to fetch data");
       }
       const fetchedData = await response.json();
+      console.log("Fetched Data:", fetchedData); // Log the fetched data
       setData(fetchedData);
     } catch (err) {
       setError(err.message);
@@ -54,8 +54,6 @@ function Submit() {
 
   return (
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center mt-28 px-4 text-white">
-      
-
       {/* Project Name Header */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -100,7 +98,9 @@ function Submit() {
 
             <div className="flex justify-between text-lg font-semibold mt-4">
               <p>✅ Correct: {data.score}</p>
-              <p>❓ Total: {data.questions.length}</p>
+              <p>❌ Incorrect: {(Object.keys(data.selectedOption).length) - data.score}</p>
+              <p>❓ Unattempted: {(data.answers?.length || 0) - (data.selectedOption ? Object.keys(data.selectedOption).length : 0)}</p>
+              <p>❓ Total: {data.questions?.length || 0}</p>
             </div>
 
             <p className="text-gray-400 mt-2">🔄 Tab Switched: {data.tabSwitchCount}</p>
@@ -123,7 +123,7 @@ function Submit() {
               Questions & Correct Answers:
             </h3>
             <div className="space-y-4">
-              {data.questions.map((question, index) => (
+              {Array.isArray(data.questions) && data.questions.map((question, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: -50 }}
@@ -135,7 +135,7 @@ function Submit() {
                     Q{index + 1}: {question.questions}
                   </p>
                   <div className="mt-2 space-y-2">
-                    {question.option.map((option, optionIndex) => {
+                    {Array.isArray(question.option) && question.option.map((option, optionIndex) => {
                       let optionClass =
                         "p-2 rounded-md border border-gray-600 text-gray-300 bg-gray-700"; // Default style
 
