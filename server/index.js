@@ -1,21 +1,25 @@
-const express = require('express')
-const cors = require('cors')
-const bodyParser = require('body-parser')
-const mongoose = require('mongoose')
-require('dotenv').config()
+import express from 'express';
+import helmet from 'helmet';
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import { connectToDatabase } from './databases/db.js';
+import { corsMiddleware } from './middleware/corsMiddleware.js';
+import fetchRoutes from './routes/fetch.routes.js'; 
+import submitRoutes from './routes/submit.routes.js'; 
 
-// Initialize the Express app
-const server = express()
-const helmet = require('helmet');
+dotenv.config();
+
+const server = express();
+
+// Middleware
 server.use(helmet());
+server.use(bodyParser.json());
+server.use(corsMiddleware);
 
-// Middleware setup
-server.use(bodyParser.json())
-const allowedOrigins = [
-  'http://localhost:5173', // Local frontend
-  'https://visionaryiq.in' // Production frontend
-];
+// Connect to DB
+connectToDatabase();
 
+<<<<<<< HEAD
 server.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
@@ -130,13 +134,19 @@ server.post('/submit', (req, res) => {
 server.get('/submit', (req, res) => {
   res.json(submissionCache)
 })
+=======
+// Routes
+server.use('/fetch', fetchRoutes);
+server.use('/submit', submitRoutes);
+>>>>>>> 42b8b4df752df24083c5da330ba7202e82fc85c4
 
+// Root route
 server.get('/', (req, res) => {
-    res.send("Hey Buddy! your backend run greatfullly");
-})
+  res.send('Hey Buddy! Your backend runs great!');
+});
 
-// Start the server
-const PORT = process.env.PORT || 4000
+// Server start
+const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`)
-})
+  console.log(`Server started on port ${PORT}`);
+});
