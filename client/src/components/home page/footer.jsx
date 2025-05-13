@@ -68,9 +68,9 @@ function Footer() {
                 >
                     <h1 className="text-2xl font-semibold mb-4">Feedback & Connect</h1>
                     <form onSubmit={onSubmit} className="space-y-3">
-                        <input className="w-full p-3 bg-zinc-200/10 rounded-md text-black" type="text" name="name" required placeholder="Name" />
-                        <input className="w-full p-3 bg-zinc-200/10 rounded-md text-black" type="email" name="email" required placeholder="Email" />
-                        <textarea className="w-full bg-zinc-200/10 p-3 rounded-md text-black" name="message" placeholder="Your Message" required></textarea>
+                        <input className="w-full p-3 bg-zinc-200/10 rounded-md text-white" type="text" name="name" required placeholder="Name" />
+                        <input className="w-full p-3 bg-zinc-200/10 rounded-md text-white" type="email" name="email" required placeholder="Email" />
+                        <textarea className="w-full bg-zinc-200/10 p-3 rounded-md text-white" name="message" placeholder="Your Message" required></textarea>
                         <button className="w-full py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition">Submit</button>
                     </form>
                 </motion.div>

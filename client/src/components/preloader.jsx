@@ -1,23 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-function Preloader({ onComplete }) {
+function Preloader({ onComplete, duration = 3000 }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    let interval = setInterval(() => {
+    const steps = 100;
+    const intervalTime = duration / steps;
+
+    const interval = setInterval(() => {
       setCount((prev) => {
         if (prev >= 100) {
           clearInterval(interval);
-          setTimeout(onComplete, 500);
+          setTimeout(onComplete, 500); // short pause
           return 100;
         }
         return prev + 1;
       });
-    }, 30); 
+    }, intervalTime);
 
     return () => clearInterval(interval);
-  }, [onComplete]);
+  }, [duration, onComplete]);
 
   return (
     <motion.div

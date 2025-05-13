@@ -100,6 +100,8 @@ function Submit() {
 
             <div className="flex justify-between text-lg font-semibold mt-4">
               <p>✅ Correct: {data.score}</p>
+              <p>❌ Incorrect: {data.questions.length - data.score}</p>
+              <p>❓ Unattempted: {data.questions.length - data.selectedOption.length}</p>
               <p>❓ Total: {data.questions.length}</p>
             </div>
 

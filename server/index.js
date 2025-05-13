@@ -24,7 +24,7 @@ server.use(cors({
       callback(new Error('Not allowed by CORS')); // Block the request
     }
   },
-  methods: ['GET', 'POST'],
+  methods: ['GET', 'POST', ],
   allowedHeaders: ['Content-Type']
 }));
 

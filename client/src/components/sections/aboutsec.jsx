@@ -9,11 +9,10 @@ function AboutSec({ setCanAccessTest }) {
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [selectAll, setSelectAll] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [showPreloader, setShowPreloader] = useState(false);
+  const [showPreloader, setShowPreloader] = useState({ show: false, duration: 0 });
   const navigate = useNavigate();
 
   const backendURL = import.meta.env.VITE_BACKEND_URL; // Load from .env
-
   useEffect(() => {
     document.addEventListener("contextmenu", (e) => e.preventDefault());
     return () => document.removeEventListener("contextmenu", (e) => e.preventDefault());
@@ -50,42 +49,55 @@ function AboutSec({ setCanAccessTest }) {
   const topics = Object.values(collectionToTopicMap);
 
   const handleStartTest = async () => {
-    if (selectedTopics.length === 0 || loading) return;
+  if (selectedTopics.length === 0 || loading) return;
 
-    setLoading(true);
-    setCanAccessTest(true);
+  setLoading(true);
+  setCanAccessTest(true);
 
-    const selectedCollections = selectedTopics.map((topic) =>
-      Object.keys(collectionToTopicMap).find((key) => collectionToTopicMap[key] === topic)
-    );
+  const selectedCollections = selectedTopics.map((topic) =>
+    Object.keys(collectionToTopicMap).find((key) => collectionToTopicMap[key] === topic)
+  );
 
-    const formData = {
-      topic: selectedCollections,
-      numberOfQuestions: questionCount,
-      topiclength: selectedTopics.length,
-    };
-
-    try {
-      const response = await fetch(`${backendURL}/fetch`, { // Use backendURL
-        method: "POST",
-        body: JSON.stringify(formData),
-        headers: { "Content-Type": "application/json" },
-      });
-
-      if (!response.ok) throw new Error("Failed to start the test");
-
-      setShowPreloader(true);
-    } catch (error) {
-      console.error("Error starting test:", error);
-      setLoading(false);
-    }
+  const formData = {
+    topic: selectedCollections,
+    numberOfQuestions: questionCount,
+    topiclength: selectedTopics.length,
   };
+
+  const startTime = Date.now();
+
+  try {
+    const response = await fetch(`${backendURL}/fetch`, {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: { "Content-Type": "application/json" },
+    });
+
+    if (!response.ok) throw new Error("Failed to start the test");
+
+    const elapsed = Date.now() - startTime;
+    const minPreloaderTime = 3000; // minimum duration
+    const duration = Math.max(minPreloaderTime, elapsed);
+
+    // ✅ Only now start preloader
+    setShowPreloader({ show: true, duration });
+    setLoading(false);
+  } catch (err) {
+    console.error("Error:", err);
+    setLoading(false);
+  }
+};
+
+
 
   return (
     <>
-      {showPreloader ? (
-        <Preloader onComplete={() => navigate("/Aptitude/topic/question/teststart")} />
-      ) : (
+      {showPreloader.show ? (
+  <Preloader
+    duration={showPreloader.duration}
+    onComplete={() => navigate("/Aptitude/topic/question/teststart")}
+  />
+) : (
         <div className="relative navbar flex flex-col items-center py-10 w-screen">
           <motion.div className="text-center mb-8" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <h1 className="text-4xl font-bold text-gray-100 mt-5">Start Your Test</h1>
