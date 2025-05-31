@@ -53,9 +53,7 @@ function Submit() {
   }, [navigate]);
 
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center justify-center mt-28 px-4 text-white">
-      
-
+    <div className="relative w-full min-h-screen flex flex-col items-center justify-center mt-28 px-4 text-white"> 
       {/* Project Name Header */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -100,9 +98,9 @@ function Submit() {
 
             <div className="flex justify-between text-lg font-semibold mt-4">
               <p>✅ Correct: {data.score}</p>
-              <p>❌ Incorrect: {data.questions.length - data.score}</p>
-              <p>❓ Unattempted: {data.questions.length - data.selectedOption.length}</p>
-              <p>❓ Total: {data.questions.length}</p>
+              <p>❌ Incorrect: {data.numberOfSelectedOptions- data.score}</p>
+              <p>❓ Unattempted: {data.numberOfQuestions - data.numberOfSelectedOptions}</p>
+              <p>❓ Total: {data.numberOfQuestions}</p>
             </div>
 
             <p className="text-gray-400 mt-2">🔄 Tab Switched: {data.tabSwitchCount}</p>
