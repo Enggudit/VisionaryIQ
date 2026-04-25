@@ -12,6 +12,7 @@ dotenv.config();
 const server = express();
 
 // Middleware
+server.use(express.json());
 server.use(helmet());
 server.use(bodyParser.json());
 server.use(corsMiddleware);
