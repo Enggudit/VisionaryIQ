@@ -20,6 +20,9 @@ dist-ssr
 .DS_Store
 *.suo
 *.ntvs*
+
+*.env
+*.node_modules
 *.njsproj
 *.sln
 *.sw?
