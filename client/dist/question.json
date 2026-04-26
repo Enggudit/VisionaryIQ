@@ -1,0 +1,1922 @@
+[
+    {
+      "MainId": "1",  
+      "topic": "Ratio & Proportion",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "If the ratio of boys to girls in a class is 3:2 and there are 30 boys, how many girls are there?",
+            "option": ["15", "20", "25", "30"],
+            "answer": "20"
+          },
+          {
+            "Id": 2,
+            "question": "Divide $2000 between two people in the ratio 3:2. How much does the second person get?",
+            "option": ["600", "800", "900", "1200"],
+            "answer": "800"
+          },
+          {
+            "Id": 3,
+            "question": "If the ratio of the ages of A and B is 4:5, and A is 24 years old, how old is B?",
+            "option": ["30", "25", "20", "28"],
+            "answer": "30"
+          },
+          {
+            "Id": 4,
+            "question": "In a recipe, the ratio of sugar to flour is 1:4. If you use 2 cups of sugar, how many cups of flour are needed?",
+            "option": ["4", "6", "8", "10"],
+            "answer": "8"
+          },
+          {
+            "Id": 5,
+            "question": "The ratio of men to women in a company is 5:3. If there are 40 women, how many men are there?",
+            "option": ["60", "66", "75", "80"],
+            "answer": "66"
+          },
+          {
+            "Id": 6,
+            "question": "Two numbers are in the ratio 2:3. If the sum of the numbers is 50, what is the larger number?",
+            "option": ["20", "25", "30", "35"],
+            "answer": "30"
+          },
+          {
+            "Id": 7,
+            "question": "The ratio of milk to water in a mixture is 4:1. If the total mixture is 25 liters, how much milk is there?",
+            "option": ["15 liters", "18 liters", "20 liters", "22 liters"],
+            "answer": "20 liters"
+          },
+          {
+            "Id": 8,
+            "question": "A mixture contains acid and water in the ratio 5:3. If the total quantity of the mixture is 64 liters, how much acid is present?",
+            "option": ["32 liters", "40 liters", "48 liters", "50 liters"],
+            "answer": "40 liters"
+          },
+          {
+            "Id": 9,
+            "question": "If the ratio of the length to the width of a rectangle is 7:3 and the width is 12 cm, what is the length?",
+            "option": ["21 cm", "24 cm", "28 cm", "30 cm"],
+            "answer": "28 cm"
+          },
+          {
+            "Id": 10,
+            "question": "If the ratio of two numbers is 9:7 and their difference is 14, what is the larger number?",
+            "option": ["42", "54", "63", "72"],
+            "answer": "63"
+          },
+          {
+            "Id": 11,
+            "question": "The ratio of A’s salary to B’s salary is 4:5. If A’s salary is increased by 20%, the new ratio becomes 6:7. What is B’s original salary if A’s original salary was $2400?",
+            "option": ["$3000", "$3600", "$2800", "$4000"],
+            "answer": "$3000"
+          },
+          {
+            "Id": 12,
+            "question": "A solution contains water and alcohol in the ratio 3:2. If 10 liters of alcohol is added, the new ratio becomes 1:1. What was the original amount of water?",
+            "option": ["20 liters", "30 liters", "40 liters", "50 liters"],
+            "answer": "30 liters"
+          },
+          {
+            "Id": 13,
+            "question": "A sum of money is divided among A, B, and C in the ratio 2:3:5. If C’s share is $500, what is the total amount of money?",
+            "option": ["$1000", "$1200", "$1500", "$1800"],
+            "answer": "$1000"
+          },
+          {
+            "Id": 14,
+            "question": "The ratio of two quantities is 7:9. If 3 is added to both, the ratio becomes 5:6. What is the smaller quantity?",
+            "option": ["21", "24", "28", "30"],
+            "answer": "21"
+          },
+          {
+            "Id": 15,
+            "question": "Two numbers are in the ratio 3:4. If 12 is subtracted from both, the ratio becomes 5:7. What are the two numbers?",
+            "option": ["24, 32", "30, 40", "36, 48", "42, 56"],
+            "answer": "36, 48"
+          }
+        ]
+      },
+      {
+        "MainId": "2",
+        "topic": "Partnership & Mixture",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "A and B invest in a business in the ratio 3:2. If the total profit is $500, what is A's share?",
+                "option": ["$100", "$200", "$300", "$400"],
+                "answer": "$300"
+            },
+            {
+                "Id": 2,
+                "question": "A, B, and C invest in a business. A invests $5000, B invests $4000, and C invests $6000. If the total profit is $1500, what is C’s share of the profit?",
+                "option": ["$500", "$600", "$700", "$800"],
+                "answer": "$600"
+            },
+            {
+                "Id": 3,
+                "question": "A invests $8000 in a business for 6 months, and B invests $6000 for 8 months. What is the ratio of their profits?",
+                "option": ["4:3", "3:2", "5:4", "1:1"],
+                "answer": "1:1"
+            },
+            {
+                "Id": 4,
+                "question": "A, B, and C invest in a business. A invests $5000 for 6 months, B invests $4000 for 12 months, and C invests $6000 for 8 months. What is the ratio of their profits?",
+                "option": ["5:4:6", "10:8:9", "15:12:16", "30:16:18"],
+                "answer": "15:12:16"
+            },
+            {
+                "Id": 5,
+                "question": "A, B, and C invest in a partnership and divide the profits equally. If C invests double the amount of A and B, how are the profits divided?",
+                "option": ["Equally", "A : B, C gets double", "A : B : C", "None of the above"],
+                "answer": "A : B, C gets double"
+            },
+            {
+                "Id": 6,
+                "question": "A milkman mixes 30 liters of water with 70 liters of milk. What is the ratio of water to milk in the mixture?",
+                "option": ["2:7", "3:7", "3:4", "1:2"],
+                "answer": "3:7"
+            },
+            {
+                "Id": 7,
+                "question": "A 40-liter solution contains 25% alcohol. How much alcohol should be added to make the alcohol content 40%?",
+                "option": ["10 liters", "5 liters", "8 liters", "12 liters"],
+                "answer": "8 liters"
+            },
+            {
+                "Id": 8,
+                "question": "Two alloys contain gold and silver in the ratio 2:3 and 5:7 respectively. In what ratio should the two alloys be mixed to get a new alloy with gold and silver in the ratio 7:10?",
+                "option": ["3:2", "5:3", "4:3", "6:5"],
+                "answer": "3:2"
+            },
+            {
+                "Id": 9,
+                "question": "In a partnership, A invests $3000, B invests $4000, and C invests $5000. If the total profit is $1800, what is B's share?",
+                "option": ["$600", "$700", "$800", "$900"],
+                "answer": "$600"
+            },
+            {
+                "Id": 10,
+                "question": "A and B start a business. A invests $6000 and B invests $4000. At the end of the year, they earn a profit of $1000. If A's share of the profit is $600, what is B's share?",
+                "option": ["$300", "$400", "$500", "$600"],
+                "answer": "$400"
+            },
+            {
+                "Id": 11,
+                "question": "A 60-liter solution contains 40% alcohol. How much water must be added to reduce the alcohol percentage to 30%?",
+                "option": ["10 liters", "20 liters", "15 liters", "25 liters"],
+                "answer": "20 liters"
+            },
+            {
+                "Id": 12,
+                "question": "A and B invest in a business. A invests $1000 and B invests $2000. They make a profit of $1500. What is B's share of the profit?",
+                "option": ["$1000", "$1200", "$500", "$750"],
+                "answer": "$1000"
+            },
+            {
+                "Id": 13,
+                "question": "A vessel contains a mixture of milk and water in the ratio 5:3. How much water should be added to 40 liters of the mixture to make the ratio 1:1?",
+                "option": ["5 liters", "8 liters", "10 liters", "12 liters"],
+                "answer": "5 liters"
+            },
+            {
+                "Id": 14,
+                "question": "A and B start a business with investments in the ratio 7:5. If A's share of the profit is $7000, what is the total profit?",
+                "option": ["$10000", "$12000", "$14000", "$15000"],
+                "answer": "$12000"
+            },
+            {
+                "Id": 15,
+                "question": "A man bought 60 kg of sugar, part of which he sold at 20% profit and the rest at 10% loss. If he neither gains nor loses overall, what was the quantity of sugar sold at 10% loss?",
+                "option": ["20 kg", "25 kg", "30 kg", "35 kg"],
+                "answer": "30 kg"
+            }
+        ]
+    },
+    {
+      "MainId": "3", 
+      "topic": "Percentage",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "What is 20% of 150?",
+            "option": ["20", "30", "25", "35"],
+            "answer": "30"
+          },
+          {
+            "Id": 2,
+            "question": "If 45% of a number is 81, what is the number?",
+            "option": ["100", "150", "180", "200"],
+            "answer": "180"
+          },
+          {
+            "Id": 3,
+            "question": "A student scores 72 out of 80 in an exam. What is his percentage score?",
+            "option": ["80%", "85%", "90%", "95%"],
+            "answer": "90%"
+          },
+          {
+            "Id": 4,
+            "question": "A shopkeeper marks his goods at 20% above the cost price and offers a discount of 10%. What is the percentage profit?",
+            "option": ["8%", "10%", "12%", "14%"],
+            "answer": "8%"
+          },
+          {
+            "Id": 5,
+            "question": "A number is first increased by 10% and then decreased by 10%. What is the overall change?",
+            "option": ["0%", "1% decrease", "1% increase", "2% decrease"],
+            "answer": "1% decrease"
+          },
+          {
+            "Id": 6,
+            "question": "If a price is reduced by 20%, what percentage increase is required to restore it to the original price?",
+            "option": ["15%", "20%", "25%", "30%"],
+            "answer": "25%"
+          },
+          {
+            "Id": 7,
+            "question": "If A’s salary is 20% more than B’s, how much is B’s salary less than A’s in percentage terms?",
+            "option": ["16.67%", "20%", "18%", "25%"],
+            "answer": "16.67%"
+          },
+          {
+            "Id": 8,
+            "question": "In an election, a candidate secured 40% of the votes and lost by a margin of 200 votes. How many total votes were cast?",
+            "option": ["500", "600", "1000", "1200"],
+            "answer": "1000"
+          },
+          {
+            "Id": 9,
+            "question": "A person spends 80% of his income. If his income increases by 20%, but he continues to spend the same percentage of his income, what is the percentage increase in his savings?",
+            "option": ["20%", "25%", "50%", "75%"],
+            "answer": "50%"
+          },
+          {
+            "Id": 10,
+            "question": "The population of a town increases by 10% in the first year, and then decreases by 10% in the second year. What is the net change in the population over the two years?",
+            "option": ["1% decrease", "No change", "1% increase", "2% decrease"],
+            "answer": "1% decrease"
+          },
+          {
+            "Id": 11,
+            "question": "A student scored 40% on a test and failed by 20 marks. If the passing marks are 50%, what was the maximum number of marks on the test?",
+            "option": ["100", "150", "200", "250"],
+            "answer": "100"
+          },
+          {
+            "Id": 12,
+            "question": "If 60% of a number is added to 60, the result is the same number. What is the number?",
+            "option": ["60", "100", "150", "200"],
+            "answer": "150"
+          },
+          {
+            "Id": 13,
+            "question": "A retailer offers a discount of 20% on a marked price and still makes a profit of 25%. What is the cost price if the marked price is $500?",
+            "option": ["300", "320", "340", "360"],
+            "answer": "320"
+          },
+          {
+            "Id": 14,
+            "question": "If the price of a commodity increases by 20% every year, by what percentage will the price increase in 3 years?",
+            "option": ["60%", "72.8%", "76%", "85%"],
+            "answer": "72.8%"
+          },
+          {
+            "Id": 15,
+            "question": "The price of an article is first increased by 25% and then decreased by 20%. What is the net effect on the price?",
+            "option": ["5% decrease", "5% increase", "10% decrease", "No change"],
+            "answer": "5% increase"
+          }
+        ]
+    },
+    {
+      "MainId": "4",
+      "topic": "Profit, Loss, and Discount",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "What is the profit if a product is bought for $50 and sold for $70?",
+            "option": ["$10", "$20", "$30", "$40"],
+            "answer": "$20"
+          },
+          {
+            "Id": 2,
+            "question": "A shirt costs $40. If it is sold for $30, what is the loss percentage?",
+            "option": ["10%", "25%", "20%", "15%"],
+            "answer": "25%"
+          },
+          {
+            "Id": 3,
+            "question": "If a product is sold for $150 after a 25% discount, what was its original price?",
+            "option": ["$200", "$180", "$170", "$160"],
+            "answer": "$200"
+          },
+          {
+            "Id": 4,
+            "question": "A shopkeeper bought an item for $120 and sold it for $150. What is the profit percentage?",
+            "option": ["25%", "20%", "30%", "15%"],
+            "answer": "25%"
+          },
+          {
+            "Id": 5,
+            "question": "If an item is marked at $80 and is sold at a 10% discount, what is the selling price?",
+            "option": ["$72", "$78", "$76", "$70"],
+            "answer": "$72"
+          },
+          {
+            "Id": 6,
+            "question": "A bicycle is purchased for $300. If it is sold for $240, what is the loss percentage?",
+            "option": ["20%", "25%", "15%", "30%"],
+            "answer": "20%"
+          },
+          {
+            "Id": 7,
+            "question": "What is the cost price if a product is sold for $240 at a profit of 20%?",
+            "option": ["$200", "$180", "$220", "$210"],
+            "answer": "$200"
+          },
+          {
+            "Id": 8,
+            "question": "A laptop is priced at $800. If it is sold for $680, what is the percentage discount?",
+            "option": ["15%", "10%", "12.5%", "20%"],
+            "answer": "15%"
+          },
+          {
+            "Id": 9,
+            "question": "If a book is bought for $15 and sold for $18, what is the profit in dollars?",
+            "option": ["$2", "$3", "$5", "$4"],
+            "answer": "$3"
+          },
+          {
+            "Id": 10,
+            "question": "An article is sold for $1,200 after a 20% discount. What was the original price?",
+            "option": ["$1,500", "$1,600", "$1,400", "$1,200"],
+            "answer": "$1,500"
+          },
+          {
+            "Id": 11,
+            "question": "If an item is bought for $150 and sold for $120, what is the loss amount?",
+            "option": ["$30", "$20", "$40", "$50"],
+            "answer": "$30"
+          },
+          {
+            "Id": 12,
+            "question": "A store sells a jacket for $120 after applying a 25% discount. What was the original price?",
+            "option": ["$150", "$160", "$140", "$130"],
+            "answer": "$160"
+          },
+          {
+            "Id": 13,
+            "question": "A shopkeeper marks the price of a table at $500 but offers a 15% discount. What is the sale price?",
+            "option": ["$425", "$450", "$400", "$475"],
+            "answer": "$425"
+          },
+          {
+            "Id": 14,
+            "question": "If a trader incurs a loss of 10% on an item bought for $200, what is the selling price?",
+            "option": ["$180", "$190", "$170", "$160"],
+            "answer": "$180"
+          },
+          {
+            "Id": 15,
+            "question": "A toy is sold for $30 after a discount of 25%. What was the original price?",
+            "option": ["$40", "$35", "$45", "$50"],
+            "answer": "$40"
+          }
+        ]
+    },
+    {
+      "MainId": "5",  
+      "topic": "Speed, Time, and Distance",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "A car travels 60 kilometers in 1 hour. What is its speed in km/h?",
+                "option": ["30 km/h", "60 km/h", "90 km/h", "120 km/h"],
+                "answer": "60 km/h"
+            },
+            {
+                "Id": 2,
+                "question": "If a cyclist covers 20 km in 40 minutes, what is their speed in km/h?",
+                "option": ["20 km/h", "25 km/h", "30 km/h", "40 km/h"],
+                "answer": "30 km/h"
+            },
+            {
+                "Id": 3,
+                "question": "A train moves at a speed of 90 km/h. How far will it travel in 2.5 hours?",
+                "option": ["180 km", "200 km", "225 km", "250 km"],
+                "answer": "225 km"
+            },
+            {
+                "Id": 4,
+                "question": "A person walks at a speed of 4 km/h. How long will it take to walk 10 km?",
+                "option": ["1 hour", "2 hours", "2.5 hours", "3 hours"],
+                "answer": "2.5 hours"
+            },
+            {
+                "Id": 5,
+                "question": "A car covers a distance of 240 km in 3 hours. What is its average speed?",
+                "option": ["70 km/h", "80 km/h", "90 km/h", "100 km/h"],
+                "answer": "80 km/h"
+            },
+            {
+                "Id": 6,
+                "question": "If a runner finishes a race of 100 meters in 10 seconds, what is their speed in m/s?",
+                "option": ["5 m/s", "7 m/s", "10 m/s", "12 m/s"],
+                "answer": "10 m/s"
+            },
+            {
+                "Id": 7,
+                "question": "A vehicle travels at a speed of 75 km/h for 4 hours. How far does it travel?",
+                "option": ["200 km", "250 km", "300 km", "350 km"],
+                "answer": "300 km"
+            },
+            {
+                "Id": 8,
+                "question": "How long will it take a boat traveling at 15 km/h to cover 45 km?",
+                "option": ["2 hours", "2.5 hours", "3 hours", "3.5 hours"],
+                "answer": "3 hours"
+            },
+            {
+                "Id": 9,
+                "question": "If a train travels 300 km at a speed of 120 km/h, how long does it take?",
+                "option": ["1.5 hours", "2 hours", "2.5 hours", "3 hours"],
+                "answer": "2.5 hours"
+            },
+            {
+                "Id": 10,
+                "question": "A car is moving at 80 km/h. If it continues at this speed, how far will it go in 3.5 hours?",
+                "option": ["250 km", "280 km", "300 km", "320 km"],
+                "answer": "280 km"
+            },
+            {
+                "Id": 11,
+                "question": "If a cyclist travels 45 km in 1.5 hours, what is their speed in m/s?",
+                "option": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+                "answer": "10 m/s"
+            },
+            {
+                "Id": 12,
+                "question": "A runner completes a marathon (42.195 km) in 3 hours. What is their average speed?",
+                "option": ["12 km/h", "13 km/h", "14 km/h", "15 km/h"],
+                "answer": "14 km/h"
+            },
+            {
+                "Id": 13,
+                "question": "If a vehicle travels 360 km in 5 hours, what is its average speed?",
+                "option": ["60 km/h", "65 km/h", "70 km/h", "75 km/h"],
+                "answer": "72 km/h"
+            },
+            {
+                "Id": 14,
+                "question": "A person jogs 8 km in 40 minutes. What is their speed in km/h?",
+                "option": ["10 km/h", "12 km/h", "14 km/h", "16 km/h"],
+                "answer": "12 km/h"
+            },
+            {
+                "Id": 15,
+                "question": "If a plane travels 1200 km in 2 hours, what is its speed?",
+                "option": ["500 km/h", "600 km/h", "700 km/h", "800 km/h"],
+                "answer": "600 km/h"
+            }
+        ]
+    },
+    {
+      "MainId": "6",  
+      "topic": "Trains",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "What is the average speed of a train that travels 150 miles in 3 hours?",
+                "option": ["50 mph", "60 mph", "70 mph", "75 mph"],
+                "answer": "50 mph"
+            },
+            {
+                "Id": 2,
+                "question": "Which of the following is a high-speed train?",
+                "option": ["Amtrak", "Shinkansen", "Eurostar", "Both B and C"],
+                "answer": "Both B and C"
+            },
+            {
+                "Id": 3,
+                "question": "If a train leaves the station at 4:00 PM and arrives at 6:00 PM, how long is the journey?",
+                "option": ["1 hour", "1.5 hours", "2 hours", "2.5 hours"],
+                "answer": "2 hours"
+            },
+            {
+                "Id": 4,
+                "question": "What is the name of the longest railway tunnel in the world?",
+                "option": ["Gotthard Base Tunnel", "Channel Tunnel", "Seikan Tunnel", "Yulhyeon Tunnel"],
+                "answer": "Gotthard Base Tunnel"
+            },
+            {
+                "Id": 5,
+                "question": "How many carriages does a typical passenger train have?",
+                "option": ["1-5", "5-10", "10-20", "20-30"],
+                "answer": "10-20"
+            },
+            {
+                "Id": 6,
+                "question": "A train travels from Station A to Station B at a speed of 80 km/h. How long will it take to cover 240 km?",
+                "option": ["2 hours", "3 hours", "4 hours", "5 hours"],
+                "answer": "3 hours"
+            },
+            {
+                "Id": 7,
+                "question": "In which country is the famous train 'The Orient Express' based?",
+                "option": ["France", "Italy", "Germany", "UK"],
+                "answer": "France"
+            },
+            {
+                "Id": 8,
+                "question": "What type of train runs on a track without the use of wheels?",
+                "option": ["Maglev", "Steam", "Diesel", "Electric"],
+                "answer": "Maglev"
+            },
+            {
+                "Id": 9,
+                "question": "What is the primary purpose of a train conductor?",
+                "option": ["Operating the train", "Serving food", "Managing the schedule", "Safety and customer service"],
+                "answer": "Safety and customer service"
+            },
+            {
+                "Id": 10,
+                "question": "If a freight train travels at 60 km/h and a passenger train at 90 km/h, how far apart will they be after 2 hours if they start at the same point?",
+                "option": ["30 km", "60 km", "90 km", "120 km"],
+                "answer": "60 km"
+            },
+            {
+                "Id": 11,
+                "question": "What is the term for the area where trains load and unload passengers?",
+                "option": ["Platform", "Station", "Depot", "Yard"],
+                "answer": "Station"
+            },
+            {
+                "Id": 12,
+                "question": "What was the world's first steam locomotive?",
+                "option": ["The Rocket", "Locomotion No. 1", "The Puffing Devil", "The Iron Horse"],
+                "answer": "Locomotion No. 1"
+            },
+            {
+                "Id": 13,
+                "question": "In terms of railways, what does ' gauge' refer to?",
+                "option": ["Length of the train", "Width of the track", "Height of the carriages", "Speed of the train"],
+                "answer": "Width of the track"
+            },
+            {
+                "Id": 14,
+                "question": "Which of the following is a disadvantage of trains compared to other modes of transport?",
+                "option": ["Cost-effective", "Environmentally friendly", "Limited routes", "Speed"],
+                "answer": "Limited routes"
+            },
+            {
+                "Id": 15,
+                "question": "What is the maximum speed of the fastest train in the world as of 2024?",
+                "option": ["300 km/h", "350 km/h", "400 km/h", "500 km/h"],
+                "answer": "400 km/h"
+            }
+        ]
+    },
+    {
+      "MainId": "7",  
+      "topic": "Boat Times",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "A boat travels upstream at 10 km/h and downstream at 15 km/h. What is the average speed of the boat for the entire journey?",
+            "option": ["12 km/h", "11 km/h", "13 km/h", "14 km/h"],
+            "answer": "12 km/h"
+          },
+          {
+            "Id": 2,
+            "question": "If a boat can go 24 km upstream in 3 hours, what is the speed of the boat in still water if the current speed is 4 km/h?",
+            "option": ["10 km/h", "8 km/h", "6 km/h", "12 km/h"],
+            "answer": "10 km/h"
+          },
+          {
+            "Id": 3,
+            "question": "A boat takes 4 hours to travel downstream and 6 hours to return upstream. If the distance is the same in both cases, what is the speed of the boat in still water?",
+            "option": ["5 km/h", "6 km/h", "7 km/h", "8 km/h"],
+            "answer": "6 km/h"
+          },
+          {
+            "Id": 4,
+            "question": "Two boats start from the same point. Boat A travels upstream at 5 km/h, and Boat B travels downstream at 10 km/h. How far apart will they be after 1 hour?",
+            "option": ["15 km", "10 km", "5 km", "20 km"],
+            "answer": "15 km"
+          },
+          {
+            "Id": 5,
+            "question": "A boat can travel 30 km upstream in 6 hours. How fast is the current if the speed of the boat in still water is 8 km/h?",
+            "option": ["2 km/h", "3 km/h", "4 km/h", "5 km/h"],
+            "answer": "2 km/h"
+          },
+          {
+            "Id": 6,
+            "question": "If a boat's speed in still water is 20 km/h and the speed of the current is 5 km/h, how long will it take to cover 60 km upstream?",
+            "option": ["5 hours", "6 hours", "4 hours", "3 hours"],
+            "answer": "6 hours"
+          },
+          {
+            "Id": 7,
+            "question": "A boat travels 15 km upstream and 15 km downstream in 3 hours. What is the speed of the current?",
+            "option": ["1 km/h", "2 km/h", "3 km/h", "4 km/h"],
+            "answer": "2 km/h"
+          },
+          {
+            "Id": 8,
+            "question": "A boat moves at a speed of 12 km/h in still water. If it takes 2 hours longer to go upstream than downstream, how far did it travel?",
+            "option": ["24 km", "36 km", "48 km", "60 km"],
+            "answer": "48 km"
+          },
+          {
+            "Id": 9,
+            "question": "A boat can travel downstream at 20 km/h and upstream at 10 km/h. If the total distance covered is 120 km, how much time does it take?",
+            "option": ["6 hours", "8 hours", "10 hours", "12 hours"],
+            "answer": "8 hours"
+          },
+          {
+            "Id": 10,
+            "question": "If a boat goes 40 km downstream in 2 hours, what is the speed of the boat in still water if the current speed is 5 km/h?",
+            "option": ["15 km/h", "20 km/h", "25 km/h", "30 km/h"],
+            "answer": "25 km/h"
+          },
+          {
+            "Id": 11,
+            "question": "A boat covers a distance of 45 km downstream in 1.5 hours. How long will it take to cover the same distance upstream if the speed of the current is 3 km/h?",
+            "option": ["5 hours", "6 hours", "4 hours", "3 hours"],
+            "answer": "6 hours"
+          },
+          {
+            "Id": 12,
+            "question": "If a boat's speed in still water is 18 km/h and it travels 54 km downstream, how long will it take?",
+            "option": ["2 hours", "3 hours", "4 hours", "5 hours"],
+            "answer": "3 hours"
+          },
+          {
+            "Id": 13,
+            "question": "A boat takes 8 hours to travel downstream and 10 hours to return upstream. If the current is 2 km/h, what is the speed of the boat in still water?",
+            "option": ["8 km/h", "10 km/h", "12 km/h", "14 km/h"],
+            "answer": "12 km/h"
+          },
+          {
+            "Id": 14,
+            "question": "If the speed of a boat is increased by 5 km/h, it can cover a distance of 100 km in 2 hours less. What was the original speed of the boat?",
+            "option": ["15 km/h", "20 km/h", "25 km/h", "30 km/h"],
+            "answer": "25 km/h"
+          },
+          {
+            "Id": 15,
+            "question": "A boat takes 3 hours to cover a certain distance upstream and 2 hours to cover the same distance downstream. What is the ratio of the speed of the boat in still water to the speed of the current?",
+            "option": ["2:1", "3:1", "4:1", "5:1"],
+            "answer": "5:1"
+          }
+        ]
+    },
+    {
+      "MainId": "8",  
+      "topic": "Simple & Compound Interest",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "What is the simple interest on a principal amount of $1,000 at a rate of 5% per annum for 3 years?",
+                "option": ["$150", "$200", "$300", "$250"],
+                "answer": "$150"
+            },
+            {
+                "Id": 2,
+                "question": "If you invest $500 at an interest rate of 8% per annum, how much interest will you earn in 5 years?",
+                "option": ["$100", "$120", "$200", "$250"],
+                "answer": "$200"
+            },
+            {
+                "Id": 3,
+                "question": "Calculate the compound interest on $1,200 at an annual interest rate of 6% compounded annually for 2 years.",
+                "option": ["$148.86", "$160.00", "$140.00", "$120.00"],
+                "answer": "$148.86"
+            },
+            {
+                "Id": 4,
+                "question": "A principal of $800 is invested at a compound interest rate of 10% per annum for 3 years. What is the total amount at the end of 3 years?",
+                "option": ["$1000", "$1060", "$1120", "$1160"],
+                "answer": "$1060"
+            },
+            {
+                "Id": 5,
+                "question": "What is the formula for calculating simple interest?",
+                "option": ["SI : PRT", "SI : P/(RT)", "SI : (P + R)T", "SI : PTR"],
+                "answer": "SI : PRT"
+            },
+            {
+                "Id": 6,
+                "question": "If the amount after 2 years is $1,210 and the principal is $1,000, what is the simple interest earned?",
+                "option": ["$200", "$150", "$210", "$100"],
+                "answer": "$210"
+            },
+            {
+                "Id": 7,
+                "question": "What will be the total amount after 4 years if $1,500 is invested at 5% compound interest per annum?",
+                "option": ["$1,800", "$1,875", "$1,600", "$1,700"],
+                "answer": "$1,875"
+            },
+            {
+                "Id": 8,
+                "question": "What is the compound interest on $2,000 at a rate of 7% per annum after 3 years?",
+                "option": ["$500.00", "$600.00", "$200.00", "$300.00"],
+                "answer": "$600.00"
+            },
+            {
+                "Id": 9,
+                "question": "If $1,000 is invested for 2 years at a simple interest rate of 4% per annum, what is the total amount at the end of 2 years?",
+                "option": ["$1,080", "$1,040", "$1,100", "$1,200"],
+                "answer": "$1,080"
+            },
+            {
+                "Id": 10,
+                "question": "If a sum of money doubles in 10 years at compound interest, what is the annual rate of interest?",
+                "option": ["10%", "12%", "15%", "20%"],
+                "answer": "10%"
+            },
+            {
+                "Id": 11,
+                "question": "How long will it take for a principal amount to triple at a rate of 6% per annum compound interest?",
+                "option": ["18 years", "20 years", "25 years", "30 years"],
+                "answer": "20 years"
+            },
+            {
+                "Id": 12,
+                "question": "What is the principal amount if the simple interest earned is $300 at a rate of 10% over 5 years?",
+                "option": ["$500", "$600", "$700", "$800"],
+                "answer": "$600"
+            },
+            {
+                "Id": 13,
+                "question": "If $3,000 is invested at an annual interest rate of 9% compounded annually, how much will it amount to after 5 years?",
+                "option": ["$4,600", "$4,300", "$3,800", "$4,000"],
+                "answer": "$4,600"
+            },
+            {
+                "Id": 14,
+                "question": "A loan of $1,500 is taken for 2 years at an interest rate of 12% per annum. How much total amount will have to be paid back?",
+                "option": ["$1,680", "$1,800", "$1,900", "$2,000"],
+                "answer": "$1,680"
+            },
+            {
+                "Id": 15,
+                "question": "Calculate the total amount on an investment of $2,500 at a compound interest rate of 5% compounded quarterly for 3 years.",
+                "option": ["$2,906.06", "$2,850.00", "$2,800.00", "$2,950.00"],
+                "answer": "$2,906.06"
+            }
+        ]
+    },
+    {
+      "MainId": "9",  
+      "topic": "Work Pipes",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "If Pipe A can fill a tank in 10 hours, how long will it take for Pipe A to fill half the tank?",
+            "option": ["2.5 hours", "5 hours", "7.5 hours", "10 hours"],
+            "answer": "5 hours"
+          },
+          {
+            "Id": 2,
+            "question": "If Pipe B can fill a tank in 15 hours, how many hours will it take to fill the tank if Pipe B is open for 3 hours?",
+            "option": ["2 hours", "3 hours", "5 hours", "9 hours"],
+            "answer": "3 hours"
+          },
+          {
+            "Id": 3,
+            "question": "Pipe A can fill a tank in 8 hours, and Pipe B can fill it in 12 hours. How long will it take for both pipes to fill the tank together?",
+            "option": ["4 hours", "5 hours", "6 hours", "7 hours"],
+            "answer": "4.8 hours"
+          },
+          {
+            "Id": 4,
+            "question": "If Pipe C empties a tank in 20 hours, how long will it take for the tank to be emptied if Pipe C works for 5 hours?",
+            "option": ["1 hour", "5 hours", "10 hours", "15 hours"],
+            "answer": "1 hour"
+          },
+          {
+            "Id": 5,
+            "question": "If Pipe D can fill a tank in 5 hours and Pipe E can empty it in 10 hours, how long will it take for both pipes to fill the tank if they are opened together?",
+            "option": ["2 hours", "3 hours", "5 hours", "6 hours"],
+            "answer": "3.33 hours"
+          },
+          {
+            "Id": 6,
+            "question": "A tank is filled by two pipes in 6 hours. If one pipe is twice as fast as the other, how long does it take for the slower pipe to fill the tank alone?",
+            "option": ["8 hours", "12 hours", "14 hours", "16 hours"],
+            "answer": "12 hours"
+          },
+          {
+            "Id": 7,
+            "question": "Pipe F fills a tank at a rate of 4 liters per minute. How long will it take to fill a 240-liter tank?",
+            "option": ["50 minutes", "60 minutes", "70 minutes", "80 minutes"],
+            "answer": "60 minutes"
+          },
+          {
+            "Id": 8,
+            "question": "If Pipe G fills a tank in 3 hours and Pipe H fills it in 5 hours, how long will it take to fill the tank if both pipes work together?",
+            "option": ["1.5 hours", "2 hours", "2.5 hours", "3 hours"],
+            "answer": "1.8 hours"
+          },
+          {
+            "Id": 9,
+            "question": "A tank is filled by three pipes. Pipe I can fill it in 4 hours, Pipe J in 6 hours, and Pipe K in 12 hours. How long will it take for all three pipes to fill the tank together?",
+            "option": ["1 hour", "1.5 hours", "2 hours", "2.5 hours"],
+            "answer": "1.2 hours"
+          },
+          {
+            "Id": 10,
+            "question": "If Pipe L is opened and fills a tank in 7 hours, and Pipe M is opened and empties it in 14 hours, how long will it take to fill the tank if both pipes are opened together?",
+            "option": ["3.5 hours", "5 hours", "7 hours", "10 hours"],
+            "answer": "4.67 hours"
+          },
+          {
+            "Id": 11,
+            "question": "If a tank can be filled by Pipe N in 9 hours and Pipe O can empty it in 3 hours, how long will it take to fill the tank if both are working together?",
+            "option": ["4 hours", "6 hours", "8 hours", "12 hours"],
+            "answer": "6 hours"
+          },
+          {
+            "Id": 12,
+            "question": "A tank takes 15 hours to fill when both Pipe P and Pipe Q are opened together. If Pipe P is twice as fast as Pipe Q, how long does it take Pipe Q to fill the tank alone?",
+            "option": ["20 hours", "25 hours", "30 hours", "35 hours"],
+            "answer": "30 hours"
+          },
+          {
+            "Id": 13,
+            "question": "If Pipe R can fill a tank in 10 hours and Pipe S can fill it in 15 hours, how long will it take to fill the tank if Pipe S is turned off after 3 hours?",
+            "option": ["5 hours", "6 hours", "7 hours", "8 hours"],
+            "answer": "7 hours"
+          },
+          {
+            "Id": 14,
+            "question": "A tank has two pipes. Pipe T can fill it in 8 hours, while Pipe U can empty it in 10 hours. If both are opened together, how long will it take to fill the tank?",
+            "option": ["4 hours", "5 hours", "6 hours", "7 hours"],
+            "answer": "40 hours"
+          },
+          {
+            "Id": 15,
+            "question": "If a tank is filled by Pipe V in 12 hours and emptied by Pipe W in 18 hours, how long will it take to fill the tank if both are opened together?",
+            "option": ["7.2 hours", "8.4 hours", "10.5 hours", "12 hours"],
+            "answer": "10.5 hours"
+          }
+        ]
+    },
+    {
+      "MainId": "10",  
+      "topic": "Average",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "What is the average of the following numbers: 10, 20, 30, 40?",
+                "option": ["20", "25", "30", "35"],
+                "answer": "25"
+            },
+            {
+                "Id": 2,
+                "question": "The average of five numbers is 12. What is the sum of the numbers?",
+                "option": ["60", "12", "50", "48"],
+                "answer": "60"
+            },
+            {
+                "Id": 3,
+                "question": "If the average of three numbers is 15 and one number is 10, what are the other two numbers?",
+                "option": ["20 and 10", "30 and 0", "10 and 20", "15 and 15"],
+                "answer": "10 and 20"
+            },
+            {
+                "Id": 4,
+                "question": "In a class of 30 students, the average score in a test is 75. What is the total score of the class?",
+                "option": ["2250", "2400", "2500", "2000"],
+                "answer": "2250"
+            },
+            {
+                "Id": 5,
+                "question": "A person has an average speed of 40 km/h for the first 2 hours and 60 km/h for the next 3 hours. What is his average speed for the entire journey?",
+                "option": ["48 km/h", "50 km/h", "45 km/h", "52 km/h"],
+                "answer": "48 km/h"
+            },
+            {
+                "Id": 6,
+                "question": "The average weight of 4 boys is 45 kg. If one boy weighs 50 kg, what is the average weight of the remaining boys?",
+                "option": ["45 kg", "40 kg", "50 kg", "42.5 kg"],
+                "answer": "42.5 kg"
+            },
+            {
+                "Id": 7,
+                "question": "A family has an average income of $5000 per month. If they spend $3000, what is their average savings?",
+                "option": ["$2000", "$3000", "$4000", "$1000"],
+                "answer": "$2000"
+            },
+            {
+                "Id": 8,
+                "question": "In a survey, the average age of 5 people is 30 years. If one person aged 40 is removed, what is the new average age?",
+                "option": ["28 years", "30 years", "32 years", "34 years"],
+                "answer": "28 years"
+            },
+            {
+                "Id": 9,
+                "question": "The average marks of a student in 4 subjects is 85. What are the total marks obtained in 4 subjects?",
+                "option": ["340", "320", "300", "350"],
+                "answer": "340"
+            },
+            {
+                "Id": 10,
+                "question": "If the average of x, y, and z is 20 and x : 10, what is the value of y + z?",
+                "option": ["30", "20", "40", "50"],
+                "answer": "30"
+            },
+            {
+                "Id": 11,
+                "question": "What is the average of the first five prime numbers?",
+                "option": ["4", "5", "6", "7"],
+                "answer": "5"
+            },
+            {
+                "Id": 12,
+                "question": "A group of friends has an average height of 170 cm. If one member who is 160 cm tall leaves the group, what is the new average height?",
+                "option": ["169 cm", "171 cm", "170 cm", "168 cm"],
+                "answer": "169 cm"
+            },
+            {
+                "Id": 13,
+                "question": "A student scores 80, 90, and 85 in three exams. What score must they achieve in the fourth exam to have an average of 90?",
+                "option": ["90", "95", "100", "85"],
+                "answer": "100"
+            },
+            {
+                "Id": 14,
+                "question": "In a box, there are 8 red balls and 12 blue balls. What is the average number of balls?",
+                "option": ["10", "15", "12", "18"],
+                "answer": "12"
+            },
+            {
+                "Id": 15,
+                "question": "The average score of a cricket team in five matches is 250. If they scored 300 in the last match, what is their average score now?",
+                "option": ["260", "255", "258", "250"],
+                "answer": "258"
+            }
+        ]
+    },
+    {
+      "MainId": "11",  
+      "topic": "Mixtures & Allegations",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "If 5 liters of a 30% salt solution is mixed with 10 liters of a 20% salt solution, what is the concentration of salt in the mixture?",
+            "option": ["23%", "24%", "25%", "22%"],
+            "answer": "24%"
+          },
+          {
+            "Id": 2,
+            "question": "A container has 40 liters of a 10% alcohol solution. How much pure alcohol is in the container?",
+            "option": ["2 liters", "3 liters", "4 liters", "5 liters"],
+            "answer": "4 liters"
+          },
+          {
+            "Id": 3,
+            "question": "What will be the ratio of water to milk when 20 liters of 30% milk solution is mixed with 30 liters of 70% milk solution?",
+            "option": ["1:2", "2:3", "3:1", "1:1"],
+            "answer": "1:2"
+          },
+          {
+            "Id": 4,
+            "question": "If 3 parts of water are mixed with 2 parts of alcohol, what is the ratio of water to alcohol?",
+            "option": ["2:3", "3:2", "1:1", "3:5"],
+            "answer": "3:2"
+          },
+          {
+            "Id": 5,
+            "question": "In a mixture of 50 kg, the ratio of sugar to water is 3:2. How much sugar is in the mixture?",
+            "option": ["30 kg", "20 kg", "25 kg", "35 kg"],
+            "answer": "30 kg"
+          },
+          {
+            "Id": 6,
+            "question": "A 20% solution contains how much solute in 10 liters?",
+            "option": ["2 liters", "3 liters", "4 liters", "5 liters"],
+            "answer": "2 liters"
+          },
+          {
+            "Id": 7,
+            "question": "A mixture contains 15 liters of alcohol and 25 liters of water. What is the ratio of alcohol to water?",
+            "option": ["3:5", "5:3", "2:5", "1:2"],
+            "answer": "3:5"
+          },
+          {
+            "Id": 8,
+            "question": "What is the percentage of acid in a solution if 20 liters of 10% acid is mixed with 30 liters of 5% acid?",
+            "option": ["7.5%", "8.33%", "9%", "10%"],
+            "answer": "8.33%"
+          },
+          {
+            "Id": 9,
+            "question": "If 15 liters of a 60% solution is mixed with 10 liters of a 40% solution, what is the concentration of the resulting solution?",
+            "option": ["48%", "52%", "54%", "50%"],
+            "answer": "48%"
+          },
+          {
+            "Id": 10,
+            "question": "In how many liters should a 40% solution be diluted to get a 10% solution if you have 5 liters of the 40% solution?",
+            "option": ["10 liters", "15 liters", "20 liters", "25 liters"],
+            "answer": "15 liters"
+          },
+          {
+            "Id": 11,
+            "question": "A solution is made by mixing two liquids in the ratio 2:3. If the total quantity of the mixture is 25 liters, how much of the first liquid is there?",
+            "option": ["10 liters", "8 liters", "12 liters", "14 liters"],
+            "answer": "10 liters"
+          },
+          {
+            "Id": 12,
+            "question": "How much water should be added to 15 liters of a 30% solution to make it 20%?",
+            "option": ["5 liters", "10 liters", "15 liters", "20 liters"],
+            "answer": "5 liters"
+          },
+          {
+            "Id": 13,
+            "question": "If 30% of a solution is salt, how much salt is in 50 liters of that solution?",
+            "option": ["10 kg", "12 kg", "15 kg", "18 kg"],
+            "answer": "15 kg"
+          },
+          {
+            "Id": 14,
+            "question": "A container contains 80 liters of a mixture of water and alcohol in the ratio of 5:3. How many liters of alcohol are in the mixture?",
+            "option": ["30 liters", "35 liters", "40 liters", "45 liters"],
+            "answer": "30 liters"
+          },
+          {
+            "Id": 15,
+            "question": "What is the resulting concentration when 100 liters of a 70% solution is mixed with 50 liters of a 40% solution?",
+            "option": ["54%", "56%", "58%", "60%"],
+            "answer": "56%"
+          }
+        ]
+    },
+    {
+      "MainId": "12",  
+      "topic": "Number System",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "What is the decimal representation of the binary number 1010?",
+            "option": ["10", "12", "14", "8"],
+            "answer": "10"
+          },
+          {
+            "Id": 2,
+            "question": "What is the result of adding the binary numbers 1101 and 1011?",
+            "option": ["10000", "10110", "11000", "11100"],
+            "answer": "11000"
+          },
+          {
+            "Id": 3,
+            "question": "Which of the following is a prime number?",
+            "option": ["4", "6", "9", "11"],
+            "answer": "11"
+          },
+          {
+            "Id": 4,
+            "question": "What is the hexadecimal representation of the decimal number 255?",
+            "option": ["FF", "AA", "CC", "00"],
+            "answer": "FF"
+          },
+          {
+            "Id": 5,
+            "question": "Which of the following numbers is irrational?",
+            "option": ["3/4", "√2", "5", "7.5"],
+            "answer": "√2"
+          },
+          {
+            "Id": 6,
+            "question": "What is the decimal value of the octal number 17?",
+            "option": ["15", "14", "13", "16"],
+            "answer": "15"
+          },
+          {
+            "Id": 7,
+            "question": "What is the binary equivalent of the decimal number 8?",
+            "option": ["100", "1010", "1100", "111"],
+            "answer": "1000"
+          },
+          {
+            "Id": 8,
+            "question": "Which of the following is a composite number?",
+            "option": ["3", "5", "7", "9"],
+            "answer": "9"
+          },
+          {
+            "Id": 9,
+            "question": "What is the greatest common divisor (GCD) of 12 and 18?",
+            "option": ["3", "6", "9", "12"],
+            "answer": "6"
+          },
+          {
+            "Id": 10,
+            "question": "Convert the decimal number 10 to binary.",
+            "option": ["101", "110", "111", "1000"],
+            "answer": "1010"
+          },
+          {
+            "Id": 11,
+            "question": "What is the value of (7 + 5) × 2?",
+            "option": ["24", "26", "30", "32"],
+            "answer": "24"
+          },
+          {
+            "Id": 12,
+            "question": "What is the result of subtracting 1010 (binary) from 1100 (binary)?",
+            "option": ["0010", "0100", "1000", "1110"],
+            "answer": "0010"
+          },
+          {
+            "Id": 13,
+            "question": "If 2x : 16, what is the value of x?",
+            "option": ["4", "8", "2", "10"],
+            "answer": "4"
+          },
+          {
+            "Id": 14,
+            "question": "What is 15 in decimal in hexadecimal?",
+            "option": ["F", "E", "D", "C"],
+            "answer": "F"
+          },
+          {
+            "Id": 15,
+            "question": "Which of the following is true for all prime numbers?",
+            "option": ["They are all even", "They have exactly two distinct positive divisors", "They can be divided by 1 only", "They are greater than 1"],
+            "answer": "They have exactly two distinct positive divisors"
+          }
+        ]
+    },                
+    {
+      "MainId": "13",  
+      "topic": "HCF & LCM",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "What is the HCF of 12 and 15?",
+                "option": ["3", "6", "12", "15"],
+                "answer": "3"
+            },
+            {
+                "Id": 2,
+                "question": "What is the LCM of 4 and 5?",
+                "option": ["10", "15", "20", "25"],
+                "answer": "20"
+            },
+            {
+                "Id": 3,
+                "question": "Find the HCF of 18, 24, and 30.",
+                "option": ["6", "12", "18", "24"],
+                "answer": "6"
+            },
+            {
+                "Id": 4,
+                "question": "What is the LCM of 6 and 8?",
+                "option": ["24", "30", "12", "18"],
+                "answer": "24"
+            },
+            {
+                "Id": 5,
+                "question": "The HCF of two numbers is 5, and their LCM is 60. What is the product of the two numbers?",
+                "option": ["300", "60", "12", "5"],
+                "answer": "300"
+            },
+            {
+                "Id": 6,
+                "question": "What is the HCF of 42 and 56?",
+                "option": ["6", "14", "28", "42"],
+                "answer": "14"
+            },
+            {
+                "Id": 7,
+                "question": "If the LCM of 9 and 12 is 36, what is their HCF?",
+                "option": ["3", "4", "6", "9"],
+                "answer": "3"
+            },
+            {
+                "Id": 8,
+                "question": "Find the LCM of 15, 20, and 30.",
+                "option": ["60", "90", "120", "150"],
+                "answer": "60"
+            },
+            {
+                "Id": 9,
+                "question": "What is the HCF of 54 and 72?",
+                "option": ["6", "18", "27", "36"],
+                "answer": "18"
+            },
+            {
+                "Id": 10,
+                "question": "The LCM of two numbers is 120 and their HCF is 15. If one number is 30, what is the other number?",
+                "option": ["40", "60", "80", "90"],
+                "answer": "60"
+            },
+            {
+                "Id": 11,
+                "question": "Find the HCF of 81 and 27.",
+                "option": ["3", "9", "27", "81"],
+                "answer": "27"
+            },
+            {
+                "Id": 12,
+                "question": "What is the LCM of 24 and 36?",
+                "option": ["72", "48", "60", "96"],
+                "answer": "72"
+            },
+            {
+                "Id": 13,
+                "question": "If two numbers are in the ratio 2:3 and their HCF is 5, what are the numbers?",
+                "option": ["10 and 15", "15 and 20", "20 and 25", "25 and 30"],
+                "answer": "10 and 15"
+            },
+            {
+                "Id": 14,
+                "question": "What is the LCM of 18 and 30?",
+                "option": ["90", "60", "120", "30"],
+                "answer": "90"
+            },
+            {
+                "Id": 15,
+                "question": "Find the HCF of 100 and 80.",
+                "option": ["10", "20", "40", "80"],
+                "answer": "20"
+            }
+        ]
+    },
+    {
+      "MainId": "14",  
+      "topic": "Distance & Progression",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "If a car travels 60 kilometers in 1 hour, how far will it travel in 3 hours?",
+            "option": ["120 km", "180 km", "150 km", "240 km"],
+            "answer": "180 km"
+          },
+          {
+            "Id": 2,
+            "question": "A train leaves a station and travels at a speed of 90 km/h. How far will it travel in 2.5 hours?",
+            "option": ["200 km", "225 km", "250 km", "270 km"],
+            "answer": "225 km"
+          },
+          {
+            "Id": 3,
+            "question": "If a person walks at a speed of 5 km/h, how long will it take to walk 15 kilometers?",
+            "option": ["1 hour", "2 hours", "3 hours", "4 hours"],
+            "answer": "3 hours"
+          },
+          {
+            "Id": 4,
+            "question": "A cyclist covers a distance of 48 kilometers in 2 hours. What is their speed in km/h?",
+            "option": ["20 km/h", "22 km/h", "24 km/h", "26 km/h"],
+            "answer": "24 km/h"
+          },
+          {
+            "Id": 5,
+            "question": "If a jogger runs at 8 km/h for 1.5 hours, how far do they run?",
+            "option": ["10 km", "12 km", "14 km", "15 km"],
+            "answer": "12 km"
+          },
+          {
+            "Id": 6,
+            "question": "A car travels 120 km in 2 hours and 30 minutes. What is the average speed of the car?",
+            "option": ["40 km/h", "45 km/h", "50 km/h", "60 km/h"],
+            "answer": "48 km/h"
+          },
+          {
+            "Id": 7,
+            "question": "If a train travels 300 km in 3 hours, what is its speed in km/h?",
+            "option": ["80 km/h", "90 km/h", "100 km/h", "110 km/h"],
+            "answer": "100 km/h"
+          },
+          {
+            "Id": 8,
+            "question": "A person can walk 6 km in 1 hour. How long will it take them to walk 24 km?",
+            "option": ["3 hours", "4 hours", "5 hours", "6 hours"],
+            "answer": "4 hours"
+          },
+          {
+            "Id": 9,
+            "question": "If a runner completes a 10 km race in 50 minutes, what is their average speed in km/h?",
+            "option": ["10 km/h", "12 km/h", "15 km/h", "20 km/h"],
+            "answer": "12 km/h"
+          },
+          {
+            "Id": 10,
+            "question": "A plane travels 1500 km in 2 hours. How fast is the plane flying?",
+            "option": ["600 km/h", "750 km/h", "800 km/h", "900 km/h"],
+            "answer": "750 km/h"
+          },
+          {
+            "Id": 11,
+            "question": "If a car travels at a speed of 100 km/h, how far will it travel in 4.5 hours?",
+            "option": ["400 km", "450 km", "480 km", "500 km"],
+            "answer": "450 km"
+          },
+          {
+            "Id": 12,
+            "question": "A bus travels 180 km in 3 hours. What is its speed?",
+            "option": ["50 km/h", "55 km/h", "60 km/h", "65 km/h"],
+            "answer": "60 km/h"
+          },
+          {
+            "Id": 13,
+            "question": "How far will a runner go if they run for 1.5 hours at a speed of 12 km/h?",
+            "option": ["15 km", "18 km", "20 km", "22 km"],
+            "answer": "18 km"
+          },
+          {
+            "Id": 14,
+            "question": "If a car travels 240 km in 3 hours, what is the average speed of the car?",
+            "option": ["70 km/h", "75 km/h", "80 km/h", "85 km/h"],
+            "answer": "80 km/h"
+          },
+          {
+            "Id": 15,
+            "question": "A cyclist travels 60 km in 2 hours. If they increase their speed by 10 km/h, how far will they travel in 1 hour?",
+            "option": ["30 km", "40 km", "50 km", "60 km"],
+            "answer": "70 km"
+          }
+        ]
+    },
+    {
+      "MainId": "15",  
+      "topic": "Calendar",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "How many days are there in a leap year?",
+                "option": ["365", "366", "364", "367"],
+                "answer": "366"
+            },
+            {
+                "Id": 2,
+                "question": "What is the total number of months in a year?",
+                "option": ["10", "11", "12", "13"],
+                "answer": "12"
+            },
+            {
+                "Id": 3,
+                "question": "If today is January 1st, what day will it be 100 days from now?",
+                "option": ["March 31", "April 10", "April 1", "April 15"],
+                "answer": "April 10"
+            },
+            {
+                "Id": 4,
+                "question": "Which of the following months has 30 days?",
+                "option": ["January", "February", "April", "August"],
+                "answer": "April"
+            },
+            {
+                "Id": 5,
+                "question": "How many weeks are there in a year?",
+                "option": ["52", "53", "54", "51"],
+                "answer": "52"
+            },
+            {
+                "Id": 6,
+                "question": "If today is a Tuesday, what day will it be in 50 days?",
+                "option": ["Wednesday", "Saturday", "Monday", "Thursday"],
+                "answer": "Saturday"
+            },
+            {
+                "Id": 7,
+                "question": "What is the date of New Year's Day?",
+                "option": ["December 31", "January 1", "January 15", "February 1"],
+                "answer": "January 1"
+            },
+            {
+                "Id": 8,
+                "question": "In which month is Independence Day celebrated in the USA?",
+                "option": ["June", "July", "August", "September"],
+                "answer": "July"
+            },
+            {
+                "Id": 9,
+                "question": "Which year was the last leap year?",
+                "option": ["2020", "2021", "2019", "2018"],
+                "answer": "2020"
+            },
+            {
+                "Id": 10,
+                "question": "How many days are there in February in a common year?",
+                "option": ["28", "29", "30", "27"],
+                "answer": "28"
+            },
+            {
+                "Id": 11,
+                "question": "Which day is considered the last day of the week in most cultures?",
+                "option": ["Friday", "Saturday", "Sunday", "Monday"],
+                "answer": "Sunday"
+            },
+            {
+                "Id": 12,
+                "question": "If today is March 1st, what date will it be 60 days from now?",
+                "option": ["April 30", "May 1", "May 15", "May 30"],
+                "answer": "April 30"
+            },
+            {
+                "Id": 13,
+                "question": "What is the first month of the year in the Gregorian calendar?",
+                "option": ["January", "February", "March", "December"],
+                "answer": "January"
+            },
+            {
+                "Id": 14,
+                "question": "Which month has the longest day of the year?",
+                "option": ["June", "July", "August", "December"],
+                "answer": "June"
+            },
+            {
+                "Id": 15,
+                "question": "How many days are there in a decade?",
+                "option": ["3650", "3652", "3660", "3640"],
+                "answer": "3652"
+            }
+        ]
+    },
+    {
+      "MainId": "16",  
+      "topic": "Clock",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "What is the angle between the hour and minute hand at 3:00?",
+            "option": ["0 degrees", "90 degrees", "180 degrees", "360 degrees"],
+            "answer": "90 degrees"
+          },
+          {
+            "Id": 2,
+            "question": "If it is 2:30, what is the angle between the hour and minute hands?",
+            "option": ["75 degrees", "90 degrees", "105 degrees", "120 degrees"],
+            "answer": "105 degrees"
+          },
+          {
+            "Id": 3,
+            "question": "How many times do the hands of a clock overlap in 12 hours?",
+            "option": ["10", "11", "12", "13"],
+            "answer": "11"
+          },
+          {
+            "Id": 4,
+            "question": "At what time between 4 and 5 o'clock will the hands of a clock be at right angles?",
+            "option": ["4:15", "4:30", "4:45", "4:20"],
+            "answer": "4:15"
+          },
+          {
+            "Id": 5,
+            "question": "What is the time when the angle between the hour and minute hand is 180 degrees?",
+            "option": ["6:00", "8:00", "9:00", "10:00"],
+            "answer": "6:00"
+          },
+          {
+            "Id": 6,
+            "question": "If the minute hand moves at 6 degrees per minute, how far does it move in 15 minutes?",
+            "option": ["45 degrees", "90 degrees", "120 degrees", "180 degrees"],
+            "answer": "90 degrees"
+          },
+          {
+            "Id": 7,
+            "question": "How many degrees does the minute hand of a clock move in 1 hour?",
+            "option": ["360 degrees", "30 degrees", "60 degrees", "180 degrees"],
+            "answer": "360 degrees"
+          },
+          {
+            "Id": 8,
+            "question": "What is the angle between the hands of a clock at 12:15?",
+            "option": ["22.5 degrees", "45 degrees", "67.5 degrees", "75 degrees"],
+            "answer": "52.5 degrees"
+          },
+          {
+            "Id": 9,
+            "question": "At what time will the minute hand and hour hand be in a straight line after 10:00?",
+            "option": ["10:15", "10:30", "10:45", "10:50"],
+            "answer": "10:30"
+          },
+          {
+            "Id": 10,
+            "question": "What is the time when the minute hand is at 12 and the hour hand is at 3?",
+            "option": ["3:00", "3:15", "3:30", "3:45"],
+            "answer": "3:00"
+          },
+          {
+            "Id": 11,
+            "question": "How often do the hour and minute hands coincide?",
+            "option": ["60 minutes", "30 minutes", "50 minutes", "65 minutes"],
+            "answer": "65 minutes"
+          },
+          {
+            "Id": 12,
+            "question": "At what angle are the hands of the clock when it is 6:15?",
+            "option": ["112.5 degrees", "135 degrees", "150 degrees", "180 degrees"],
+            "answer": "112.5 degrees"
+          },
+          {
+            "Id": 13,
+            "question": "If it is 5:00, how many degrees is the angle between the hands of the clock?",
+            "option": ["120 degrees", "150 degrees", "180 degrees", "90 degrees"],
+            "answer": "150 degrees"
+          },
+          {
+            "Id": 14,
+            "question": "If the hour hand is at 2 and the minute hand is at 6, what time is it?",
+            "option": ["2:30", "2:00", "2:15", "2:45"],
+            "answer": "2:30"
+          },
+          {
+            "Id": 15,
+            "question": "What is the angle between the hour hand and minute hand at 9:45?",
+            "option": ["135 degrees", "90 degrees", "180 degrees", "150 degrees"],
+            "answer": "112.5 degrees"
+          }
+        ]
+    },
+    {
+      "MainId": "17",  
+      "topic": "Permutations & Combinations",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "How many ways can 3 books be arranged on a shelf?",
+                "option": ["3", "6", "9", "12"],
+                "answer": "6"
+            },
+            {
+                "Id": 2,
+                "question": "In how many ways can 5 different toys be arranged in a row?",
+                "option": ["60", "100", "120", "150"],
+                "answer": "120"
+            },
+            {
+                "Id": 3,
+                "question": "How many different 4-letter combinations can be formed from the letters A, B, C, and D?",
+                "option": ["16", "24", "32", "64"],
+                "answer": "256"
+            },
+            {
+                "Id": 4,
+                "question": "How many ways can 4 students be selected from a class of 10?",
+                "option": ["210", "120", "150", "180"],
+                "answer": "210"
+            },
+            {
+                "Id": 5,
+                "question": "In how many different ways can the letters of the word 'MATH' be arranged?",
+                "option": ["12", "16", "24", "36"],
+                "answer": "24"
+            },
+            {
+                "Id": 6,
+                "question": "How many ways can you choose 2 fruits from an assortment of 5 different fruits?",
+                "option": ["10", "12", "15", "20"],
+                "answer": "10"
+            },
+            {
+                "Id": 7,
+                "question": "How many different ways can a committee of 3 be formed from 8 people?",
+                "option": ["56", "72", "84", "90"],
+                "answer": "56"
+            },
+            {
+                "Id": 8,
+                "question": "How many ways can 3 identical balls be placed in 3 different boxes?",
+                "option": ["3", "6", "10", "15"],
+                "answer": "10"
+            },
+            {
+                "Id": 9,
+                "question": "How many ways can you arrange the letters in the word 'LEVEL'?",
+                "option": ["60", "90", "120", "150"],
+                "answer": "60"
+            },
+            {
+                "Id": 10,
+                "question": "How many 5-digit numbers can be formed using the digits 1, 2, 3, 4, and 5 without repetition?",
+                "option": ["60", "100", "120", "150"],
+                "answer": "120"
+            },
+            {
+                "Id": 11,
+                "question": "How many ways can you choose 3 cards from a deck of 52?",
+                "option": ["1326", "221", "441", "1240"],
+                "answer": "221"
+            },
+            {
+                "Id": 12,
+                "question": "How many different permutations can be made with the letters of the word 'BANANA'?",
+                "option": ["60", "90", "180", "210"],
+                "answer": "60"
+            },
+            {
+                "Id": 13,
+                "question": "How many ways can a president, a vice-president, and a secretary be chosen from 10 candidates?",
+                "option": ["720", "900", "1000", "1200"],
+                "answer": "720"
+            },
+            {
+                "Id": 14,
+                "question": "How many ways can you select 4 people from a group of 10 to form a team if the order of selection does not matter?",
+                "option": ["210", "120", "150", "180"],
+                "answer": "210"
+            },
+            {
+                "Id": 15,
+                "question": "How many ways can the letters of the word 'STATISTICS' be arranged?",
+                "option": ["362880", "907200", "50400", "28800"],
+                "answer": "907200"
+            }
+        ]
+    },
+    {
+      "MainId": "18",  
+      "topic": "Probability",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "What is the probability of rolling a sum of 7 with two six-sided dice?",
+            "option": ["1/6", "1/12", "1/3", "1/4"],
+            "answer": "1/6"
+          },
+          {
+            "Id": 2,
+            "question": "If you flip a fair coin three times, what is the probability of getting exactly two heads?",
+            "option": ["3/8", "1/4", "1/2", "5/8"],
+            "answer": "3/8"
+          },
+          {
+            "Id": 3,
+            "question": "What is the probability of drawing a heart from a standard deck of cards?",
+            "option": ["1/4", "1/13", "1/52", "3/13"],
+            "answer": "1/4"
+          },
+          {
+            "Id": 4,
+            "question": "In a bag with 5 red balls and 3 blue balls, what is the probability of drawing a blue ball?",
+            "option": ["3/8", "5/8", "1/2", "1/3"],
+            "answer": "3/8"
+          },
+          {
+            "Id": 5,
+            "question": "What is the probability of selecting a prime number from the numbers 1 to 10?",
+            "option": ["1/5", "1/2", "3/10", "4/10"],
+            "answer": "4/10"
+          },
+          {
+            "Id": 6,
+            "question": "A box contains 10 black, 5 white, and 5 red marbles. What is the probability of randomly selecting a red marble?",
+            "option": ["1/4", "1/5", "1/2", "1/3"],
+            "answer": "1/4"
+          },
+          {
+            "Id": 7,
+            "question": "What is the probability of drawing an Ace from a standard deck of cards?",
+            "option": ["1/52", "1/13", "4/52", "2/52"],
+            "answer": "4/52"
+          },
+          {
+            "Id": 8,
+            "question": "If the probability of raining on any given day is 0.3, what is the probability that it will not rain?",
+            "option": ["0.7", "0.3", "0.5", "0.1"],
+            "answer": "0.7"
+          },
+          {
+            "Id": 9,
+            "question": "What is the probability of rolling a number greater than 4 on a six-sided die?",
+            "option": ["1/6", "1/3", "1/2", "1/4"],
+            "answer": "1/3"
+          },
+          {
+            "Id": 10,
+            "question": "In a class of 30 students, 18 are boys. What is the probability of randomly selecting a girl?",
+            "option": ["2/3", "1/3", "1/2", "5/10"],
+            "answer": "1/3"
+          },
+          {
+            "Id": 11,
+            "question": "A bag contains 4 green, 6 blue, and 10 yellow balls. What is the probability of selecting a green ball?",
+            "option": ["2/10", "4/20", "1/5", "1/4"],
+            "answer": "1/5"
+          },
+          {
+            "Id": 12,
+            "question": "If two dice are rolled, what is the probability that at least one die shows a 3?",
+            "option": ["5/6", "1/6", "1/3", "1/2"],
+            "answer": "5/6"
+          },
+          {
+            "Id": 13,
+            "question": "What is the probability of drawing a face card from a standard deck of cards?",
+            "option": ["1/13", "3/52", "12/52", "1/4"],
+            "answer": "12/52"
+          },
+          {
+            "Id": 14,
+            "question": "In a lottery, the chance of winning is 1 in 1000. What is the probability of losing?",
+            "option": ["1/1000", "999/1000", "1/10", "1/100"],
+            "answer": "999/1000"
+          },
+          {
+            "Id": 15,
+            "question": "A bag has 10 red and 20 blue marbles. If you randomly select one marble, what is the probability that it is red?",
+            "option": ["1/3", "1/2", "1/5", "1/2"],
+            "answer": "1/3"
+          }
+        ]
+    },
+    {
+      "MainId": "19",  
+      "topic": "Time & Work",
+        "Questions": [
+          {
+            "Id": 1,
+            "question": "If A can complete a work in 10 days and B can complete the same work in 15 days, how many days will they take to finish the work together?",
+            "option": ["5 days", "6 days", "7 days", "8 days"],
+            "answer": "6 days"
+          },
+          {
+            "Id": 2,
+            "question": "If C can do a piece of work in 12 hours, how much work can C do in 3 hours?",
+            "option": ["1/4 of the work", "1/3 of the work", "1/2 of the work", "2/3 of the work"],
+            "answer": "1/4 of the work"
+          },
+          {
+            "Id": 3,
+            "question": "A can complete a work in 20 days, B can do it in 30 days. How long will they take to finish the work together?",
+            "option": ["12 days", "15 days", "18 days", "10 days"],
+            "answer": "12 days"
+          },
+          {
+            "Id": 4,
+            "question": "If 5 men can complete a work in 40 days, how many men are needed to complete the same work in 20 days?",
+            "option": ["10 men", "15 men", "20 men", "25 men"],
+            "answer": "10 men"
+          },
+          {
+            "Id": 5,
+            "question": "A can do 30% of a work in 12 days. How long will A take to finish the whole work?",
+            "option": ["30 days", "36 days", "40 days", "48 days"],
+            "answer": "40 days"
+          },
+          {
+            "Id": 6,
+            "question": "If A and B can do a work together in 24 days, and A alone can do it in 36 days, how long will B take to do it alone?",
+            "option": ["72 days", "48 days", "60 days", "84 days"],
+            "answer": "72 days"
+          },
+          {
+            "Id": 7,
+            "question": "If a job can be done by 3 people in 10 days, how many days will it take for 5 people to do the same job?",
+            "option": ["8 days", "6 days", "5 days", "4 days"],
+            "answer": "6 days"
+          },
+          {
+            "Id": 8,
+            "question": "A can complete a task in 15 hours, while B can complete the same task in 25 hours. If they work together, how long will it take to complete the task?",
+            "option": ["9.6 hours", "10 hours", "12 hours", "8 hours"],
+            "answer": "9.6 hours"
+          },
+          {
+            "Id": 9,
+            "question": "A, B, and C can complete a work in 10, 15, and 30 days respectively. How long will it take for them to finish the work together?",
+            "option": ["4 days", "5 days", "6 days", "7 days"],
+            "answer": "4 days"
+          },
+          {
+            "Id": 10,
+            "question": "If a worker can do 50% of a job in 20 hours, how much time will he take to complete the job?",
+            "option": ["30 hours", "40 hours", "50 hours", "60 hours"],
+            "answer": "40 hours"
+          },
+          {
+            "Id": 11,
+            "question": "If 4 men can complete a task in 20 days, how many days will it take for 10 men to complete the same task?",
+            "option": ["10 days", "8 days", "5 days", "12 days"],
+            "answer": "8 days"
+          },
+          {
+            "Id": 12,
+            "question": "If A is twice as efficient as B, and together they finish a work in 15 days, how long will A take to finish the work alone?",
+            "option": ["20 days", "25 days", "30 days", "35 days"],
+            "answer": "20 days"
+          },
+          {
+            "Id": 13,
+            "question": "A can do a work in 10 days, B can do the same work in 15 days. If they work together for 5 days, how much of the work is left?",
+            "option": ["1/2", "1/3", "1/4", "1/5"],
+            "answer": "1/3"
+          },
+          {
+            "Id": 14,
+            "question": "If A takes 4 days to do a work and B takes 6 days to do the same work, how long will it take for them to complete the work if they work together?",
+            "option": ["2.4 days", "3 days", "3.6 days", "4 days"],
+            "answer": "2.4 days"
+          },
+          {
+            "Id": 15,
+            "question": "A, B, and C can complete a work in 12, 15, and 20 days respectively. If they all work together, how long will it take them to complete the work?",
+            "option": ["3 days", "4 days", "5 days", "6 days"],
+            "answer": "3 days"
+          }
+        ]
+    },
+    {
+      "MainId": "20", 
+      "topic": "Problems on Ages",
+        "Questions": [
+            {
+                "Id": 1,
+                "question": "A is twice as old as B. If B is 10 years old, how old is A?",
+                "option": ["10", "20", "15", "25"],
+                "answer": "20"
+            },
+            {
+                "Id": 2,
+                "question": "If the sum of the ages of a father and son is 40 years, and the father is 36 years old, how old is the son?",
+                "option": ["4", "5", "6", "10"],
+                "answer": "4"
+            },
+            {
+                "Id": 3,
+                "question": "Three years ago, A was 5 years older than B. If A is now 15 years old, how old is B now?",
+                "option": ["7", "8", "9", "10"],
+                "answer": "7"
+            },
+            {
+                "Id": 4,
+                "question": "If the present age of a mother is 4 times that of her daughter, and the sum of their ages is 60, what is the present age of the daughter?",
+                "option": ["10", "12", "15", "20"],
+                "answer": "12"
+            },
+            {
+                "Id": 5,
+                "question": "A is 3 years older than B. If B is x years old, how old is A?",
+                "option": ["x + 3", "x + 5", "x - 3", "x - 5"],
+                "answer": "x + 3"
+            },
+            {
+                "Id": 6,
+                "question": "In 5 years, the age of a man will be twice the age of his son. If the son is currently 10 years old, what is the man's current age?",
+                "option": ["30", "25", "20", "35"],
+                "answer": "30"
+            },
+            {
+                "Id": 7,
+                "question": "Ten years ago, a mother was 4 times as old as her son. If the mother's current age is 50, what is the son's current age?",
+                "option": ["10", "15", "20", "25"],
+                "answer": "15"
+            },
+            {
+                "Id": 8,
+                "question": "If John is 5 years older than Mike and Mike is 3 years older than Tom, how old is Tom if John is 20?",
+                "option": ["10", "12", "8", "9"],
+                "answer": "8"
+            },
+            {
+                "Id": 9,
+                "question": "A father is 4 times older than his son. After 20 years, he will be twice as old as his son. What is the age of the son now?",
+                "option": ["10", "20", "15", "30"],
+                "answer": "10"
+            },
+            {
+                "Id": 10,
+                "question": "The sum of the ages of a grandfather and his grandson is 70. If the grandfather is 60, how old is the grandson?",
+                "option": ["10", "15", "20", "25"],
+                "answer": "10"
+            },
+            {
+                "Id": 11,
+                "question": "If Lisa is twice as old as Sam now and 10 years ago, she was 3 times as old as him. What is Sam's current age?",
+                "option": ["5", "10", "15", "20"],
+                "answer": "10"
+            },
+            {
+                "Id": 12,
+                "question": "A man is 3 times older than his son. After 10 years, he will be twice as old as his son. How old is the son now?",
+                "option": ["5", "10", "15", "20"],
+                "answer": "10"
+            },
+            {
+                "Id": 13,
+                "question": "In 10 years, the age of the father will be three times that of his son. If the son is currently 5 years old, what is the father's current age?",
+                "option": ["25", "30", "20", "35"],
+                "answer": "25"
+            },
+            {
+                "Id": 14,
+                "question": "Tom is 4 years older than Jerry. If Jerry is 12, how old is Tom?",
+                "option": ["16", "20", "14", "18"],
+                "answer": "16"
+            },
+            {
+                "Id": 15,
+                "question": "Five years ago, a mother was twice as old as her daughter. If the mother is now 45, what is the daughter's age now?",
+                "option": ["20", "15", "10", "25"],
+                "answer": "20"
+            }
+        ]
+    }                                        
+]
