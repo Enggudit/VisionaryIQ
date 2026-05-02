@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 
 function PaintBox() {
   const canvasRef = useRef(null);
   const [isDrawing, setIsDrawing] = useState(false);
   const [color, setColor] = useState('#000000');
-  const [lineWidth, setLineWidth] = useState(1);
+  const [lineWidth] = useState(1);
 
   const startDrawing = (e) => {
     const ctx = canvasRef.current.getContext('2d');

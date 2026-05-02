@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function StartTest() {
@@ -33,9 +32,6 @@ function StartTest() {
     document.addEventListener("keydown", handleKeyDown);
     return () => document.removeEventListener("keydown", handleKeyDown);
   }, []);
-
-  const [searchParams] = useSearchParams();
-  const queryParamValue = searchParams.get("N");
 
   return (
     <div className="text-white w-full h-[100vh] flex justify-center items-center bg-gradient-to-r from-indigo-900 to-black">

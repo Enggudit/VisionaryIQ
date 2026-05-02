@@ -1,84 +1,42 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom'; // Ensure you import Link from react-router-dom
-import { gsap } from 'gsap';
-// No need for ScrollTrigger in this code if you're not using it here
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-    const [lastScrollTop, setLastScrollTop] = useState(0);
     const [isHidden, setIsHidden] = useState(false);
-    const section = useRef(null);
-    const animate = useRef(null);
 
     useEffect(() => {
+        let lastScrollTop = window.scrollY;
+
         const handleScroll = () => {
             const scrollTop = window.scrollY;
-            setIsHidden(scrollTop > lastScrollTop);
-            setLastScrollTop(scrollTop);
+            setIsHidden(scrollTop > lastScrollTop && scrollTop > 20);
+            lastScrollTop = scrollTop;
         };
 
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, [lastScrollTop]);
-
-    useEffect(() => {
-        const nvmenu = section.current;
-        const ani = animate.current;
-
-        // GSAP animation setup
-        const tll = gsap.timeline();
-        tll.to(ani, {
-            height: '23vh',
-            display: 'block',
-            opacity: 1,
-            duration: 0.5,
-        }).to(ani, {
-            opacity: 1,
-            display: 'block',
-            duration: 0.5,
-        }, "-=0.5");
-
-        tll.pause();
-
-        // Show animation on hover
-        const handleMouseEnter = () => {
-            tll.play();
-        };
-
-        // Reverse the animation on mouse leave
-        const handleMouseLeave = () => {
-            tll.reverse();
-        };
-
-        nvmenu.addEventListener('mouseenter', handleMouseEnter);
-        nvmenu.addEventListener('mouseleave', handleMouseLeave);
-
-        return () => {
-            nvmenu.removeEventListener('mouseenter', handleMouseEnter);
-            nvmenu.removeEventListener('mouseleave', handleMouseLeave);
-        };
     }, []);
 
+    const linkClass = 'block rounded-full border border-zinc-500/70 px-4 py-1 text-white transition-colors duration-300 hover:border-blue-400 hover:text-blue-300';
+
     return (
-        <div>
-            <nav className={`fixed top-0 left-0 w-full z-[999] text-white p-4 transition-transform duration-300 ${isHidden ? '-translate-y-full' : 'translate-y-0'}`}>
-                <ul className="navbar flex justify-center space-x-4 text-white text-xl gap-[4%] flex-wrap">
-                    <li><Link to="/" className="border-zinc-500 border-[0.1px] rounded-full px-4">Home</Link></li>
-                    <li ref={section} className="relative group">
-                        <a className="sections border-zinc-500 border-[0.1px] rounded-full px-4 font-normal">Section's</a>
-                        <div ref={animate} className="nav-con bg-transparent text-center mt-1 w-44 border-zinc-900 border-[2px] hidden rounded-lg h-[0] text-2xl pt-2 absolute overflow-hidden">
-                            <Link to="/Aptitude/topic/question"><div className='app mb-3 font-light'>Aptitude</div></Link>
-                            <Link to="/Coding"><div className='app mb-3 font-light'>Coding</div></Link>
-                            <Link to="/Verbal"><div className='app mb-3 font-light'>Verbal</div></Link>
-                            
+        <div className="desktop-nav">
+            <nav className={`fixed left-0 top-0 z-[999] w-full px-4 py-3 text-white transition-transform duration-300 ${isHidden ? '-translate-y-full' : 'translate-y-0'}`}>
+                <ul className="mx-auto flex w-fit flex-wrap items-center justify-center gap-4 rounded-full border border-white/10 bg-[#181a2f]/75 px-5 py-2 text-xl shadow-lg backdrop-blur-md playwrite-is">
+                    <li><Link to="/" className={linkClass}>Home</Link></li>
+                    <li className="group relative">
+                        <button type="button" className={`${linkClass} font-normal`}>Section&apos;s</button>
+                        <div className="invisible absolute left-1/2 top-full mt-2 w-44 -translate-x-1/2 overflow-hidden rounded-lg border border-zinc-700 bg-[#181a2f]/95 py-2 text-center text-lg opacity-0 shadow-lg backdrop-blur-md transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                            <Link to="/Aptitude/topic/question" className="app block px-4 py-2 font-light text-white transition-colors hover:text-blue-300">Aptitude</Link>
+                            <Link to="/Coding" className="app block px-4 py-2 font-light text-white transition-colors hover:text-blue-300">Coding</Link>
+                            <Link to="/Verbal" className="app block px-4 py-2 font-light text-white transition-colors hover:text-blue-300">Verbal</Link>
                         </div>
                     </li>
-                    <li><Link to="/AboutUs" className="border-zinc-500 border-[0.1px] rounded-full px-4">Blog's</Link></li>
-                        <li><Link to="#" onClick={() => window.open('https://discord.com/channels/1289138672461156469/1289138672997761055', '_blank')} className="border-zinc-500 border-[0.1px] rounded-full px-4"> Community</Link>
-</li>
-
-                    <li><a href="/#footer" className="meetup border-zinc-500 border-[0.1px] rounded-full px-4">MeetUp</a></li>
+                    <li><Link to="/AboutUs" className={linkClass}>Blog&apos;s</Link></li>
+                    <li><Link to="#" onClick={() => window.open('https://discord.com/channels/1289138672461156469/1289138672997761055', '_blank')} className={linkClass}>Community</Link></li>
+                    <li><a href="/#footer" className={linkClass}>MeetUp</a></li>
                 </ul>
             </nav>
         </div>

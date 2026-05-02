@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
@@ -10,8 +10,6 @@ function App() {
   const cofounder=useRef(null);
   const technology = useRef(null);
   const line= useRef(null);
-  const [trail, setTrail] = useState([]);
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -75,7 +73,7 @@ function App() {
           <div ref={line} className="line h-[178%] w-[1.5%] bg-black rounded-2xl left-[17%] relative -z-40"></div>
           <div className="h-12 w-12 rounded-full absolute left-[4.42%] top-[45%] bg-green-500"></div>
           <div className="h-[12%] w-[20%] absolute top-[42%] rounded-2xl border-white border-[2px] left-[10%] pl-5 pt-3">
-            <h1 className='text-[250%] font-mono font-extrabold text-white'>About's Us</h1>
+            <h1 className='text-[250%] font-mono font-extrabold text-white'>About&apos;s Us</h1>
           </div>
           <div className="h-12 w-12 rounded-full absolute left-[4.42%] top-[85%] bg-green-500"></div>
           <div className="h-[12%] w-[20%] absolute top-[82%] rounded-2xl border-white border-[2px] left-[10%] pl-5 pt-3">
@@ -97,7 +95,7 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           >
-          <h1 ref={aboutus} className=' text-white p-4 text-xl absolute opacity-1'>
+          <h1 ref={aboutus} className=' text-white p-4 text-xl absolute opacity-100'>
             <p>Welcome to our revolutionary learning platform, designed to make exam preparation smarter, faster, and more efficient. Our mission is to empower students and learners by providing a comprehensive system to test and strengthen their knowledge, one topic at a time.</p>
             <br />
             <p>Our project allows users to prepare for any exam by offering topic-wise MCQ tests tailored to specific subjects. Whether you want to master a single topic or assess your understanding across multiple areas, our platform ensures an engaging and focused learning experience. By testing concepts in bite-sized portions, you can identify areas of improvement and gain confidence in your knowledge.</p>
@@ -111,7 +109,7 @@ function App() {
             <br />
             <p>We are committed to continuously evolving and expanding this project, adding more topics, features, and innovations that make exam preparation accessible and effective for everyone. This is just the beginning. Together, with your feedback and support, we aim to take this platform to extraordinary heights and make it a trusted companion for learners worldwide.</p>
             <br />
-            <p>Thank you for being part of this journey. Let’s redefine learning, together.</p>
+            <p>Thank you for being part of this journey. Let&apos;s redefine learning, together.</p>
             <p></p>
           </h1>
           <h1 ref={technology} className='text-white p-4 flex justify-center items-center gap-9 pt-16 flex-wrap opacity-0'>

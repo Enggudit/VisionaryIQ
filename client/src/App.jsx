@@ -15,7 +15,6 @@ import Startest from "./components/test-section/startest";
 import Start from "./components/test-section/test";
 import Blog from "./components/blog";
 import Submit from "./components/submit";
-import Gamezone from "./components/home page/gamezone";
 import ProtectedRoute from "./components/ProtectedRoute"; // Import ProtectedRoute
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
           <Marquee />
           <Card />
           <About />
-          <Gamezone />
           <Footer />
         </>
       ),

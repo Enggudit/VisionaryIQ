@@ -1,8 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link, useSearchParams } from 'react-router-dom';
+import { useCallback, useEffect, useState } from "react";
 
 function Test() {
-    const [searchParams] = useSearchParams();
     const [n, setN] = useState(5); // Default value; updated from backend
     const [questions, setQuestions] = useState([]);
     const [tabSwitchCount, setTabSwitchCount] = useState(0);
@@ -13,8 +11,6 @@ function Test() {
     const [showConfirmation, setShowConfirmation] = useState(false); // New state for confirmation popup
     const [isSubmitted, setIsSubmitted] = useState(false); // Track submission status
     const [blockedQuestions, setBlockedQuestions] = useState(new Set()); // Track blocked questions
-    const videoRef = useRef(null);
-    const audioRef = useRef(null);
     const backendURL = import.meta.env.VITE_BACKEND_URL;
 
 
@@ -46,7 +42,15 @@ function Test() {
             }
         };
         fetchQuestions();
-    }, []);
+    }, [backendURL]);
+
+    // Submit function
+    const handleSubmit = useCallback((e) => {
+        e?.preventDefault(); // Prevent form submission if there is a form tag wrapping the button
+        if (!isSubmitted) {
+          setShowConfirmation(true);
+        }
+      }, [isSubmitted]);
 
     // Timer logic with auto-submit when time is up
     useEffect(() => {
@@ -57,7 +61,7 @@ function Test() {
             setTimeLeft((prevTime) => (prevTime > 0 ? prevTime - 1 : 0));
         }, 1000);
         return () => clearInterval(countdown);
-    }, [timeLeft, isSubmitted]);
+    }, [timeLeft, isSubmitted, handleSubmit]);
 
     // Format time function
     const formatTime = (seconds) => {
@@ -120,14 +124,6 @@ function Test() {
         }
     };
 
-    
-    // Submit function
-    const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent form submission if there is a form tag wrapping the button
-        if (!isSubmitted) {
-          setShowConfirmation(true);
-        }
-      };
     const handleConfirmSubmit = () => {
         if (isSubmitted) return; // Prevent multiple submissions
         setIsSubmitted(true);
@@ -207,9 +203,9 @@ function Test() {
                               </div>
                           </div>
                       )}
-                      <div className="flex gap-5 mb-[5vh] justify-end w-[92vw]">
+                      <div className="flex gap-5 mb-[5vh] justify-end w-[90vw]">
                           <button
-                              className="text-white bg-red-500 w-[150px] h-[45px] text-2xl rounded-xl"
+                              className="text-white bg-red-500 w-1/6 h-[45px] hover:border-white hover:border-[3px] transition-transform text-2xl rounded-xl"
                               type="button"
                               onClick={handlePreviousQuestion}
                               disabled={selectedQuestion === 0}
@@ -217,12 +213,12 @@ function Test() {
                               <i className="ri-arrow-left-s-line"></i>PREVIOUS
                           </button>
                           <button
-                              className="text-black bg-green-500 w-[95px] h-[45px] text-2xl rounded-xl"
+                              className="text-black bg-green-500 w-1/6 hover:border-white hover:border-[3px] transition-transform h-[45px] text-2xl rounded-xl"
                               type="button"
                               onClick={handleNextQuestion}
                               disabled={selectedQuestion === n - 1}
                           >
-                              NEXT<i className="ri-arrow-right-s-line text-2xl"></i>
+                              Save & Next<i className="ri-arrow-right-s-line text-2xl"></i>
                           </button>
                       </div>
                   </div>

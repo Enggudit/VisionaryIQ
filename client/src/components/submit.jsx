@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useCallback, useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import gsap from "gsap";
@@ -11,7 +11,7 @@ function Submit() {
   const backendURL = import.meta.env.VITE_BACKEND_URL;
 
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     try {
       const response = await fetch(`${backendURL}/submit`, {
         method: "GET",
@@ -25,7 +25,7 @@ function Submit() {
       setError(err.message);
       console.error("Error fetching data:", err);
     }
-  };
+  }, [backendURL]);
 
   useEffect(() => {
     // GSAP animation for the loader
@@ -50,7 +50,7 @@ function Submit() {
     return () => {
       window.removeEventListener("popstate", handlePopState);
     };
-  }, [navigate]);
+  }, [fetchData, navigate]);
 
   return (
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center mt-28 px-4 text-white"> 

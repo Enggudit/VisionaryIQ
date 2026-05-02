@@ -2,15 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@600&display=swap');
 .playwrite-cu {
     font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 600;
     font-style: normal;}
 .playwrite-is {
     font-family: "Playwrite IS", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 600;
     font-style: normal;}
 .shojumaru-regular {
     font-family: "Shojumaru", system-ui;
@@ -20,8 +23,8 @@
     font-family: "Chicle", serif;
     font-weight: 400;
     font-style: normal;}
-.group{
-    font-family:'Shojmaru';
+.marquee-title{
+    font-family: "Sofadi One", system-ui;
     font-weight:bolder;}
 .playpen-sans-uniuqe {
     font-family: "Playpen Sans", cursive;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import LocomotiveScroll from "locomotive-scroll";
 import { useNavigate } from "react-router-dom";
@@ -14,8 +14,9 @@ function AboutSec({ setCanAccessTest }) {
 
   const backendURL = import.meta.env.VITE_BACKEND_URL; // Load from .env
   useEffect(() => {
-    document.addEventListener("contextmenu", (e) => e.preventDefault());
-    return () => document.removeEventListener("contextmenu", (e) => e.preventDefault());
+    const handleContextMenu = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+    return () => document.removeEventListener("contextmenu", handleContextMenu);
   }, []);
 
   useEffect(() => {

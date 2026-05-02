@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import 'remixicon/fonts/remixicon.css';
 import { motion } from "framer-motion";
 
@@ -29,8 +29,8 @@ function Home() {
     }, []);
 
     return (
-        <div className="bg-green-900 w-full h-[50vh] rounded-xl overflow-hidden" data-scroll data-scroll-speed="0.1">
-            <div className="group text-white text-[15vw] flex">
+        <div className="bg-green-900  w-full h-[50vh] rounded-xl overflow-hidden" data-scroll data-scroll-speed="0.1">
+            <div className="marquee-title text-white text-[15vw] flex">
                 <div className="h-[35vh] mt-[7vh] flex whitespace-nowrap justify-center items-center border-t-4 border-b-4">
                     <motion.h1
                         initial={scrollDirection === "down" ? { x: "0" } : { x: "-100%" }}

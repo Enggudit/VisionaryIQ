@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import 'remixicon/fonts/remixicon.css';
 import { gsap } from 'gsap';
 import { Link } from "react-router-dom";
@@ -81,7 +81,7 @@ function Mob() {
                 </div>
                 <div ref={fullMenuRef} className="full bg-zinc-800/50 absolute w-[70vw] h-full p-16 opacity-0 top-0 z-50 backdrop-blur-lg">
                     <a href="/"><h1 className="text-2xl text-white pb-[4vh]">Home</h1></a>
-                    <h1 ref={sectons} className="text-2xl text-white pb-[2vh] cursor-pointer">Section's</h1>
+                    <h1 ref={sectons} className="text-2xl text-white pb-[2vh] cursor-pointer">Section&apos;s</h1>
                         <div ref={secnav} className="hidden h-0">
                             <Link to="/Aptitude/topic/question"> <h2 className="text-2xl pb-2 text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aptitude</h2></Link>
                             <Link to="/Verbal"><h2 className="text-2xl pb-2 text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verbal</h2></Link>

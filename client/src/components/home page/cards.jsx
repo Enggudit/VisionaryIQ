@@ -1,5 +1,5 @@
 import { motion, useAnimation } from "framer-motion";
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
@@ -30,9 +30,9 @@ function Featured() {
     return (
         <div ref={scrollRef} className="w-full py-10 text-white" data-scroll data-scroll-speed="-0.1">
             <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-14">
-                <h1 className="text-[5vw] tracking-tight font-[playpen-sans-uniuqe] font-light">GenrE</h1>
+                <h1 className="text-[5vw] tracking-tight playpen-sans-uniuqe font-light">GenrE</h1>
             </div>
-            <div className="flex justify-center font-[Chicle]">
+            <div className="flex justify-center chicle-regular">
                 <div className="cards w-[90vw] flex gap-5 mt-10">
                     {/* Aptitude Card */}
                     <motion.div 

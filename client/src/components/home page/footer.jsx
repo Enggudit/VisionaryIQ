@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import * as THREE from "three";
 import "remixicon/fonts/remixicon.css";
@@ -84,20 +84,20 @@ function Footer() {
             <h1 className="text-xl font-semibold">Follow Us</h1>
             <div className="flex flex-col space-y-2">
                 {[
-                    { href: "https://www.instagram.com/visionaryiq_/", icon: "ri-instagram-line", color: "pink-500" },
-                    { href: "https://www.linkedin.com/company/visionaryiq-edutech", icon: "ri-linkedin-box-line", color: "blue-400" },
-                    { href: "https://youtube.com", icon: "ri-youtube-line", color: "red-600" },
-                    { href: "https://x.com/IqVisionar11663", icon: "ri-twitter-line", color: "zinc-100"}
-                ].map(({ href, icon, color }, index) => (
+                    { href: "https://www.instagram.com/visionaryiq_/", icon: "ri-instagram-line", hoverClass: "hover:text-pink-500" },
+                    { href: "https://www.linkedin.com/company/visionaryiq-edutech", icon: "ri-linkedin-box-line", hoverClass: "hover:text-blue-400" },
+                    { href: "https://youtube.com", icon: "ri-youtube-line", hoverClass: "hover:text-red-600" },
+                    { href: "https://x.com/IqVisionar11663", icon: "ri-twitter-line", hoverClass: "hover:text-zinc-100"}
+                ].map(({ href, icon, hoverClass }, index) => (
                     <a
                         key={index}
                         href={href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`social-link flex items-center text-lg transition-transform duration-300 hover:text-${color} hover:scale-110`}
+                        className={`social-link flex items-center text-lg transition-transform duration-300 hover:scale-110 ${hoverClass}`}
                     >
-                        <i className={`${icon} mr-2 text-2xl transition-all duration-300 hover:text-${color} hover:glow`}></i>
-                        <span className="transition-all duration-300 hover:text-${color} hover:text-2xl">{icon.split('-')[1]}</span>
+                        <i className={`${icon} mr-2 text-2xl transition-all duration-300 hover-glow ${hoverClass}`}></i>
+                        <span className={`transition-all duration-300 hover:text-2xl ${hoverClass}`}>{icon.split('-')[1]}</span>
                     </a>
                 ))}
             </div>
@@ -105,7 +105,7 @@ function Footer() {
             </div>
             
             <motion.h1 
-                className="relative z-10 flex flex-col items-center text-white text-5xl font-['lobster-two-bold-italic'] font-bold mt-10"
+                className="relative z-10 flex flex-col items-center text-white text-5xl lobster-two-bold-italic font-bold mt-10"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}

@@ -1,9 +1,4 @@
-import React from "react";
-import LocomotiveScroll from 'locomotive-scroll';
-
-
 function home() {
-    const locomotiveScroll = new LocomotiveScroll();
     return(
         <div className="relative navbar w-full h-screen flex justify-center"  data-scroll data-scroll-speed="-0.3">
                 <div className="main-pic w-full top-[9vh] relative flex">
@@ -14,7 +9,7 @@ function home() {
                 </div>
                 <div className="abouts text-white bg-zinc-500/30 rounded-r-xl h-[13vh] absolute left-0 bottom-[8vh]">
                     <h1 className="text-5xl pl-[2vw] font-mono">Visionary<span className="">IQ &nbsp;</span></h1>
-                    <h3 className="pl-[4vw] text-2xl leading-[18px]">It's for practice a Test's</h3>
+                    <h3 className="pl-[4vw] text-2xl leading-[18px]">It&apos;s for practice a Test&apos;s</h3>
                 </div>
                 <div className="bg-transparent h-screen w-full top-[9vh] absolute"></div>
         </div>
