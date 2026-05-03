@@ -1,13 +1,15 @@
 import cors from 'cors';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const configuredOrigins = process.env.FRONTEND_URLS
   ?.split(',')
   .map((origin) => origin.trim())
   .filter(Boolean);
 
-const allowedOrigins = [
-  'http://localhost:5173',
-  'https://visionaryiq.in',
+  const allowedOrigins = [
+  process.env.FRONTEND_URL,
   ...(configuredOrigins || []),
 ];
 
