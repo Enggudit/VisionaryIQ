@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const configuredOrigins = process.env.FRONTEND_URLS
+const configuredOrigins = process.env.FRONTEND_URL
   ?.split(',')
   .map((origin) => origin.trim())
   .filter(Boolean);
